@@ -7,62 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869717611EE71F58006DB7AC /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717601EE71F58006DB7AC /* LightTheme.swift */; };
+		869717631EE71F63006DB7AC /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717621EE71F63006DB7AC /* DarkTheme.swift */; };
+		869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */; };
+		869717851EE7206D006DB7AC /* FilledPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */; };
+		869717861EE7206D006DB7AC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717671EE7206D006DB7AC /* PrimaryButton.swift */; };
+		869717871EE7206D006DB7AC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717691EE7206D006DB7AC /* ProfileImageView.swift */; };
+		869717881EE7206D006DB7AC /* ExLargeSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697176C1EE7206D006DB7AC /* ExLargeSizeBoldTypeLabel.swift */; };
+		869717891EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697176D1EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift */; };
+		8697178A1EE7206D006DB7AC /* ExLargeSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697176E1EE7206D006DB7AC /* ExLargeSizeRegularTypeLabel.swift */; };
+		8697178B1EE7206D006DB7AC /* ExLargeSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697176F1EE7206D006DB7AC /* ExLargeSizeSemiBoldTypeLabel.swift */; };
+		8697178C1EE7206D006DB7AC /* ExSmallSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717711EE7206D006DB7AC /* ExSmallSizeBoldTypeLabel.swift */; };
+		8697178D1EE7206D006DB7AC /* ExSmallSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717721EE7206D006DB7AC /* ExSmallSizeLightTypeLabel.swift */; };
+		8697178E1EE7206D006DB7AC /* ExSmallSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717731EE7206D006DB7AC /* ExSmallSizeRegularTypeLabel.swift */; };
+		8697178F1EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717741EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift */; };
+		869717901EE7206D006DB7AC /* LargeSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717761EE7206D006DB7AC /* LargeSizeBoldTypeLabel.swift */; };
+		869717911EE7206D006DB7AC /* LargeSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717771EE7206D006DB7AC /* LargeSizeLightTypeLabel.swift */; };
+		869717921EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717781EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift */; };
+		869717931EE7206D006DB7AC /* LargeSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717791EE7206D006DB7AC /* LargeSizeSemiBoldTypeLabel.swift */; };
+		869717941EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697177B1EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift */; };
+		869717951EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697177C1EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift */; };
+		869717961EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697177D1EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift */; };
+		869717971EE7206D006DB7AC /* RegularSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697177E1EE7206D006DB7AC /* RegularSizeSemiBoldTypeLabel.swift */; };
+		869717981EE7206D006DB7AC /* SmallSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717801EE7206D006DB7AC /* SmallSizeBoldTypeLabel.swift */; };
+		869717991EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717811EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift */; };
+		8697179A1EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717821EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift */; };
+		8697179B1EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717831EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift */; };
 		86F326741EE6CD6D003D08D3 /* Theme.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F326721EE6CD6D003D08D3 /* Theme.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86F327661EE6D103003D08D3 /* BorderedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327461EE6D103003D08D3 /* BorderedPrimaryButton.swift */; };
-		86F327671EE6D103003D08D3 /* FilledPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327471EE6D103003D08D3 /* FilledPrimaryButton.swift */; };
-		86F327681EE6D103003D08D3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327481EE6D103003D08D3 /* PrimaryButton.swift */; };
-		86F327691EE6D103003D08D3 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3274A1EE6D103003D08D3 /* ProfileImageView.swift */; };
-		86F3276A1EE6D103003D08D3 /* ExLargeSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3274D1EE6D103003D08D3 /* ExLargeSizeBoldTypeLabel.swift */; };
-		86F3276B1EE6D103003D08D3 /* ExLargeSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3274E1EE6D103003D08D3 /* ExLargeSizeLightTypeLabel.swift */; };
-		86F3276C1EE6D103003D08D3 /* ExLargeSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3274F1EE6D103003D08D3 /* ExLargeSizeRegularTypeLabel.swift */; };
-		86F3276D1EE6D103003D08D3 /* ExLargeSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327501EE6D103003D08D3 /* ExLargeSizeSemiBoldTypeLabel.swift */; };
-		86F3276E1EE6D103003D08D3 /* ExSmallSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327521EE6D103003D08D3 /* ExSmallSizeBoldTypeLabel.swift */; };
-		86F3276F1EE6D103003D08D3 /* ExSmallSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327531EE6D103003D08D3 /* ExSmallSizeLightTypeLabel.swift */; };
-		86F327701EE6D103003D08D3 /* ExSmallSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327541EE6D103003D08D3 /* ExSmallSizeRegularTypeLabel.swift */; };
-		86F327711EE6D103003D08D3 /* ExSmallSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327551EE6D103003D08D3 /* ExSmallSizeSemiBoldTypeLabel.swift */; };
-		86F327721EE6D103003D08D3 /* LargeSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327571EE6D103003D08D3 /* LargeSizeBoldTypeLabel.swift */; };
-		86F327731EE6D103003D08D3 /* LargeSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327581EE6D103003D08D3 /* LargeSizeLightTypeLabel.swift */; };
-		86F327741EE6D103003D08D3 /* LargeSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327591EE6D103003D08D3 /* LargeSizeRegularTypeLabel.swift */; };
-		86F327751EE6D103003D08D3 /* LargeSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3275A1EE6D103003D08D3 /* LargeSizeSemiBoldTypeLabel.swift */; };
-		86F327761EE6D103003D08D3 /* RegularSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3275C1EE6D103003D08D3 /* RegularSizeBoldTypeLabel.swift */; };
-		86F327771EE6D103003D08D3 /* RegularSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3275D1EE6D103003D08D3 /* RegularSizeLightTypeLabel.swift */; };
-		86F327781EE6D103003D08D3 /* RegularSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3275E1EE6D103003D08D3 /* RegularSizeRegularTypeLabel.swift */; };
-		86F327791EE6D103003D08D3 /* RegularSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3275F1EE6D103003D08D3 /* RegularSizeSemiBoldTypeLabel.swift */; };
-		86F3277A1EE6D103003D08D3 /* SmallSizeBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327611EE6D103003D08D3 /* SmallSizeBoldTypeLabel.swift */; };
-		86F3277B1EE6D103003D08D3 /* SmallSizeLightTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327621EE6D103003D08D3 /* SmallSizeLightTypeLabel.swift */; };
-		86F3277C1EE6D103003D08D3 /* SmallSizeRegularTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327631EE6D103003D08D3 /* SmallSizeRegularTypeLabel.swift */; };
-		86F3277D1EE6D103003D08D3 /* SmallSizeSemiBoldTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327641EE6D103003D08D3 /* SmallSizeSemiBoldTypeLabel.swift */; };
 		86F327D81EE6D2C7003D08D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327D71EE6D2C7003D08D3 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		869717601EE71F58006DB7AC /* LightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		869717621EE71F63006DB7AC /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedPrimaryButton.swift; sourceTree = "<group>"; };
+		869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilledPrimaryButton.swift; sourceTree = "<group>"; };
+		869717671EE7206D006DB7AC /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		869717691EE7206D006DB7AC /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		8697176C1EE7206D006DB7AC /* ExLargeSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
+		8697176D1EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeLightTypeLabel.swift; sourceTree = "<group>"; };
+		8697176E1EE7206D006DB7AC /* ExLargeSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
+		8697176F1EE7206D006DB7AC /* ExLargeSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717711EE7206D006DB7AC /* ExSmallSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717721EE7206D006DB7AC /* ExSmallSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeLightTypeLabel.swift; sourceTree = "<group>"; };
+		869717731EE7206D006DB7AC /* ExSmallSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
+		869717741EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717761EE7206D006DB7AC /* LargeSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717771EE7206D006DB7AC /* LargeSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeLightTypeLabel.swift; sourceTree = "<group>"; };
+		869717781EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
+		869717791EE7206D006DB7AC /* LargeSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
+		8697177B1EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
+		8697177C1EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeLightTypeLabel.swift; sourceTree = "<group>"; };
+		8697177D1EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
+		8697177E1EE7206D006DB7AC /* RegularSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717801EE7206D006DB7AC /* SmallSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
+		869717811EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeLightTypeLabel.swift; sourceTree = "<group>"; };
+		869717821EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
+		869717831EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
 		86F3266F1EE6CD6D003D08D3 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F326721EE6CD6D003D08D3 /* Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
 		86F326731EE6CD6D003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86F327461EE6D103003D08D3 /* BorderedPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedPrimaryButton.swift; sourceTree = "<group>"; };
-		86F327471EE6D103003D08D3 /* FilledPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilledPrimaryButton.swift; sourceTree = "<group>"; };
-		86F327481EE6D103003D08D3 /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
-		86F3274A1EE6D103003D08D3 /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
-		86F3274D1EE6D103003D08D3 /* ExLargeSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F3274E1EE6D103003D08D3 /* ExLargeSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeLightTypeLabel.swift; sourceTree = "<group>"; };
-		86F3274F1EE6D103003D08D3 /* ExLargeSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
-		86F327501EE6D103003D08D3 /* ExLargeSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExLargeSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327521EE6D103003D08D3 /* ExSmallSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327531EE6D103003D08D3 /* ExSmallSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeLightTypeLabel.swift; sourceTree = "<group>"; };
-		86F327541EE6D103003D08D3 /* ExSmallSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
-		86F327551EE6D103003D08D3 /* ExSmallSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSmallSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327571EE6D103003D08D3 /* LargeSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327581EE6D103003D08D3 /* LargeSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeLightTypeLabel.swift; sourceTree = "<group>"; };
-		86F327591EE6D103003D08D3 /* LargeSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
-		86F3275A1EE6D103003D08D3 /* LargeSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F3275C1EE6D103003D08D3 /* RegularSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F3275D1EE6D103003D08D3 /* RegularSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeLightTypeLabel.swift; sourceTree = "<group>"; };
-		86F3275E1EE6D103003D08D3 /* RegularSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
-		86F3275F1EE6D103003D08D3 /* RegularSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327611EE6D103003D08D3 /* SmallSizeBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeBoldTypeLabel.swift; sourceTree = "<group>"; };
-		86F327621EE6D103003D08D3 /* SmallSizeLightTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeLightTypeLabel.swift; sourceTree = "<group>"; };
-		86F327631EE6D103003D08D3 /* SmallSizeRegularTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeRegularTypeLabel.swift; sourceTree = "<group>"; };
-		86F327641EE6D103003D08D3 /* SmallSizeSemiBoldTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallSizeSemiBoldTypeLabel.swift; sourceTree = "<group>"; };
 		86F327D71EE6D2C7003D08D3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,11 +81,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869717641EE7206D006DB7AC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */,
+				869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */,
+				869717671EE7206D006DB7AC /* PrimaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		869717681EE7206D006DB7AC /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				869717691EE7206D006DB7AC /* ProfileImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		8697176A1EE7206D006DB7AC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				8697176B1EE7206D006DB7AC /* ExLargeSizeLabel */,
+				869717701EE7206D006DB7AC /* ExSmallSizeLabels */,
+				869717751EE7206D006DB7AC /* LargeSizeTypeLabels */,
+				8697177A1EE7206D006DB7AC /* RegularSizeLabels */,
+				8697177F1EE7206D006DB7AC /* SmallSizeLabels */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		8697176B1EE7206D006DB7AC /* ExLargeSizeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8697176C1EE7206D006DB7AC /* ExLargeSizeBoldTypeLabel.swift */,
+				8697176D1EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift */,
+				8697176E1EE7206D006DB7AC /* ExLargeSizeRegularTypeLabel.swift */,
+				8697176F1EE7206D006DB7AC /* ExLargeSizeSemiBoldTypeLabel.swift */,
+			);
+			path = ExLargeSizeLabel;
+			sourceTree = "<group>";
+		};
+		869717701EE7206D006DB7AC /* ExSmallSizeLabels */ = {
+			isa = PBXGroup;
+			children = (
+				869717711EE7206D006DB7AC /* ExSmallSizeBoldTypeLabel.swift */,
+				869717721EE7206D006DB7AC /* ExSmallSizeLightTypeLabel.swift */,
+				869717731EE7206D006DB7AC /* ExSmallSizeRegularTypeLabel.swift */,
+				869717741EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift */,
+			);
+			path = ExSmallSizeLabels;
+			sourceTree = "<group>";
+		};
+		869717751EE7206D006DB7AC /* LargeSizeTypeLabels */ = {
+			isa = PBXGroup;
+			children = (
+				869717761EE7206D006DB7AC /* LargeSizeBoldTypeLabel.swift */,
+				869717771EE7206D006DB7AC /* LargeSizeLightTypeLabel.swift */,
+				869717781EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift */,
+				869717791EE7206D006DB7AC /* LargeSizeSemiBoldTypeLabel.swift */,
+			);
+			path = LargeSizeTypeLabels;
+			sourceTree = "<group>";
+		};
+		8697177A1EE7206D006DB7AC /* RegularSizeLabels */ = {
+			isa = PBXGroup;
+			children = (
+				8697177B1EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift */,
+				8697177C1EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift */,
+				8697177D1EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift */,
+				8697177E1EE7206D006DB7AC /* RegularSizeSemiBoldTypeLabel.swift */,
+			);
+			path = RegularSizeLabels;
+			sourceTree = "<group>";
+		};
+		8697177F1EE7206D006DB7AC /* SmallSizeLabels */ = {
+			isa = PBXGroup;
+			children = (
+				869717801EE7206D006DB7AC /* SmallSizeBoldTypeLabel.swift */,
+				869717811EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift */,
+				869717821EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift */,
+				869717831EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift */,
+			);
+			path = SmallSizeLabels;
+			sourceTree = "<group>";
+		};
 		86F326651EE6CD6D003D08D3 = {
 			isa = PBXGroup;
 			children = (
-				86F326711EE6CD6D003D08D3 /* Theme */,
 				86F326701EE6CD6D003D08D3 /* Products */,
+				86F326711EE6CD6D003D08D3 /* Theme */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,110 +185,25 @@
 		86F326711EE6CD6D003D08D3 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				869717641EE7206D006DB7AC /* Buttons */,
+				869717681EE7206D006DB7AC /* ImageViews */,
+				8697176A1EE7206D006DB7AC /* Labels */,
 				86F327D61EE6D29F003D08D3 /* Theme */,
-				86F327451EE6D103003D08D3 /* Buttons */,
-				86F327491EE6D103003D08D3 /* ImageViews */,
-				86F3274B1EE6D103003D08D3 /* Labels */,
-				86F326721EE6CD6D003D08D3 /* Theme.h */,
 				86F326731EE6CD6D003D08D3 /* Info.plist */,
+				86F326721EE6CD6D003D08D3 /* Theme.h */,
 			);
 			path = Theme;
-			sourceTree = "<group>";
-		};
-		86F327451EE6D103003D08D3 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				86F327461EE6D103003D08D3 /* BorderedPrimaryButton.swift */,
-				86F327471EE6D103003D08D3 /* FilledPrimaryButton.swift */,
-				86F327481EE6D103003D08D3 /* PrimaryButton.swift */,
-			);
-			name = Buttons;
-			path = ../../../whatsuptwitter/ThemeKit/ThemeKit/Theme/Buttons;
-			sourceTree = "<group>";
-		};
-		86F327491EE6D103003D08D3 /* ImageViews */ = {
-			isa = PBXGroup;
-			children = (
-				86F3274A1EE6D103003D08D3 /* ProfileImageView.swift */,
-			);
-			name = ImageViews;
-			path = ../../../whatsuptwitter/ThemeKit/ThemeKit/Theme/ImageViews;
-			sourceTree = "<group>";
-		};
-		86F3274B1EE6D103003D08D3 /* Labels */ = {
-			isa = PBXGroup;
-			children = (
-				86F3274C1EE6D103003D08D3 /* ExLargeSizeLabel */,
-				86F327511EE6D103003D08D3 /* ExSmallSizeLabels */,
-				86F327561EE6D103003D08D3 /* LargeSizeTypeLabels */,
-				86F3275B1EE6D103003D08D3 /* RegularSizeLabels */,
-				86F327601EE6D103003D08D3 /* SmallSizeLabels */,
-			);
-			name = Labels;
-			path = ../../../whatsuptwitter/ThemeKit/ThemeKit/Theme/Labels;
-			sourceTree = "<group>";
-		};
-		86F3274C1EE6D103003D08D3 /* ExLargeSizeLabel */ = {
-			isa = PBXGroup;
-			children = (
-				86F3274D1EE6D103003D08D3 /* ExLargeSizeBoldTypeLabel.swift */,
-				86F3274E1EE6D103003D08D3 /* ExLargeSizeLightTypeLabel.swift */,
-				86F3274F1EE6D103003D08D3 /* ExLargeSizeRegularTypeLabel.swift */,
-				86F327501EE6D103003D08D3 /* ExLargeSizeSemiBoldTypeLabel.swift */,
-			);
-			path = ExLargeSizeLabel;
-			sourceTree = "<group>";
-		};
-		86F327511EE6D103003D08D3 /* ExSmallSizeLabels */ = {
-			isa = PBXGroup;
-			children = (
-				86F327521EE6D103003D08D3 /* ExSmallSizeBoldTypeLabel.swift */,
-				86F327531EE6D103003D08D3 /* ExSmallSizeLightTypeLabel.swift */,
-				86F327541EE6D103003D08D3 /* ExSmallSizeRegularTypeLabel.swift */,
-				86F327551EE6D103003D08D3 /* ExSmallSizeSemiBoldTypeLabel.swift */,
-			);
-			path = ExSmallSizeLabels;
-			sourceTree = "<group>";
-		};
-		86F327561EE6D103003D08D3 /* LargeSizeTypeLabels */ = {
-			isa = PBXGroup;
-			children = (
-				86F327571EE6D103003D08D3 /* LargeSizeBoldTypeLabel.swift */,
-				86F327581EE6D103003D08D3 /* LargeSizeLightTypeLabel.swift */,
-				86F327591EE6D103003D08D3 /* LargeSizeRegularTypeLabel.swift */,
-				86F3275A1EE6D103003D08D3 /* LargeSizeSemiBoldTypeLabel.swift */,
-			);
-			path = LargeSizeTypeLabels;
-			sourceTree = "<group>";
-		};
-		86F3275B1EE6D103003D08D3 /* RegularSizeLabels */ = {
-			isa = PBXGroup;
-			children = (
-				86F3275C1EE6D103003D08D3 /* RegularSizeBoldTypeLabel.swift */,
-				86F3275D1EE6D103003D08D3 /* RegularSizeLightTypeLabel.swift */,
-				86F3275E1EE6D103003D08D3 /* RegularSizeRegularTypeLabel.swift */,
-				86F3275F1EE6D103003D08D3 /* RegularSizeSemiBoldTypeLabel.swift */,
-			);
-			path = RegularSizeLabels;
-			sourceTree = "<group>";
-		};
-		86F327601EE6D103003D08D3 /* SmallSizeLabels */ = {
-			isa = PBXGroup;
-			children = (
-				86F327611EE6D103003D08D3 /* SmallSizeBoldTypeLabel.swift */,
-				86F327621EE6D103003D08D3 /* SmallSizeLightTypeLabel.swift */,
-				86F327631EE6D103003D08D3 /* SmallSizeRegularTypeLabel.swift */,
-				86F327641EE6D103003D08D3 /* SmallSizeSemiBoldTypeLabel.swift */,
-			);
-			path = SmallSizeLabels;
 			sourceTree = "<group>";
 		};
 		86F327D61EE6D29F003D08D3 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				869717621EE71F63006DB7AC /* DarkTheme.swift */,
+				869717601EE71F58006DB7AC /* LightTheme.swift */,
 				86F327D71EE6D2C7003D08D3 /* Theme.swift */,
 			);
 			name = Theme;
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,31 +286,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F327691EE6D103003D08D3 /* ProfileImageView.swift in Sources */,
-				86F327681EE6D103003D08D3 /* PrimaryButton.swift in Sources */,
-				86F3276C1EE6D103003D08D3 /* ExLargeSizeRegularTypeLabel.swift in Sources */,
-				86F327741EE6D103003D08D3 /* LargeSizeRegularTypeLabel.swift in Sources */,
-				86F3277C1EE6D103003D08D3 /* SmallSizeRegularTypeLabel.swift in Sources */,
-				86F3277B1EE6D103003D08D3 /* SmallSizeLightTypeLabel.swift in Sources */,
-				86F327751EE6D103003D08D3 /* LargeSizeSemiBoldTypeLabel.swift in Sources */,
-				86F3276F1EE6D103003D08D3 /* ExSmallSizeLightTypeLabel.swift in Sources */,
-				86F327731EE6D103003D08D3 /* LargeSizeLightTypeLabel.swift in Sources */,
-				86F327781EE6D103003D08D3 /* RegularSizeRegularTypeLabel.swift in Sources */,
-				86F3276A1EE6D103003D08D3 /* ExLargeSizeBoldTypeLabel.swift in Sources */,
-				86F327721EE6D103003D08D3 /* LargeSizeBoldTypeLabel.swift in Sources */,
+				869717901EE7206D006DB7AC /* LargeSizeBoldTypeLabel.swift in Sources */,
+				869717861EE7206D006DB7AC /* PrimaryButton.swift in Sources */,
+				8697178D1EE7206D006DB7AC /* ExSmallSizeLightTypeLabel.swift in Sources */,
+				869717971EE7206D006DB7AC /* RegularSizeSemiBoldTypeLabel.swift in Sources */,
+				8697178C1EE7206D006DB7AC /* ExSmallSizeBoldTypeLabel.swift in Sources */,
+				869717871EE7206D006DB7AC /* ProfileImageView.swift in Sources */,
+				869717961EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift in Sources */,
+				8697179B1EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift in Sources */,
+				869717991EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift in Sources */,
+				869717631EE71F63006DB7AC /* DarkTheme.swift in Sources */,
+				869717921EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift in Sources */,
+				869717891EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift in Sources */,
+				869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */,
+				869717941EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift in Sources */,
+				8697178F1EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift in Sources */,
+				869717611EE71F58006DB7AC /* LightTheme.swift in Sources */,
+				869717951EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift in Sources */,
+				8697179A1EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift in Sources */,
 				86F327D81EE6D2C7003D08D3 /* Theme.swift in Sources */,
-				86F3276B1EE6D103003D08D3 /* ExLargeSizeLightTypeLabel.swift in Sources */,
-				86F3276D1EE6D103003D08D3 /* ExLargeSizeSemiBoldTypeLabel.swift in Sources */,
-				86F327761EE6D103003D08D3 /* RegularSizeBoldTypeLabel.swift in Sources */,
-				86F3277A1EE6D103003D08D3 /* SmallSizeBoldTypeLabel.swift in Sources */,
-				86F3277D1EE6D103003D08D3 /* SmallSizeSemiBoldTypeLabel.swift in Sources */,
-				86F327711EE6D103003D08D3 /* ExSmallSizeSemiBoldTypeLabel.swift in Sources */,
-				86F327671EE6D103003D08D3 /* FilledPrimaryButton.swift in Sources */,
-				86F327791EE6D103003D08D3 /* RegularSizeSemiBoldTypeLabel.swift in Sources */,
-				86F3276E1EE6D103003D08D3 /* ExSmallSizeBoldTypeLabel.swift in Sources */,
-				86F327771EE6D103003D08D3 /* RegularSizeLightTypeLabel.swift in Sources */,
-				86F327661EE6D103003D08D3 /* BorderedPrimaryButton.swift in Sources */,
-				86F327701EE6D103003D08D3 /* ExSmallSizeRegularTypeLabel.swift in Sources */,
+				869717851EE7206D006DB7AC /* FilledPrimaryButton.swift in Sources */,
+				869717881EE7206D006DB7AC /* ExLargeSizeBoldTypeLabel.swift in Sources */,
+				8697178E1EE7206D006DB7AC /* ExSmallSizeRegularTypeLabel.swift in Sources */,
+				8697178B1EE7206D006DB7AC /* ExLargeSizeSemiBoldTypeLabel.swift in Sources */,
+				869717931EE7206D006DB7AC /* LargeSizeSemiBoldTypeLabel.swift in Sources */,
+				869717911EE7206D006DB7AC /* LargeSizeLightTypeLabel.swift in Sources */,
+				869717981EE7206D006DB7AC /* SmallSizeBoldTypeLabel.swift in Sources */,
+				8697178A1EE7206D006DB7AC /* ExLargeSizeRegularTypeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

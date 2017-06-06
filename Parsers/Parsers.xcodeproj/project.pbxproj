@@ -21,7 +21,7 @@
 		86F326AC1EE6CDA1003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F3271D1EE6CF96003D08D3 /* CDTweetParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDTweetParser.swift; sourceTree = "<group>"; };
 		86F3271E1EE6CF96003D08D3 /* CDUserParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDUserParser.swift; sourceTree = "<group>"; };
-		86F3271F1EE6CF96003D08D3 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Parsers/Parser.swift; sourceTree = "<group>"; };
+		86F3271F1EE6CF96003D08D3 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Parser.swift; sourceTree = "<group>"; };
 		86F327211EE6CF96003D08D3 /* TweetSearchResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetSearchResponseParser.swift; sourceTree = "<group>"; };
 		86F327291EE6CFE6003D08D3 /* PersistenceStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceStore.framework; path = "../PersistenceStore/build/Debug-iphoneos/PersistenceStore.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,9 +41,9 @@
 		86F3269E1EE6CDA1003D08D3 = {
 			isa = PBXGroup;
 			children = (
+				86F327281EE6CFE5003D08D3 /* Frameworks */,
 				86F326AA1EE6CDA1003D08D3 /* Parsers */,
 				86F326A91EE6CDA1003D08D3 /* Products */,
-				86F327281EE6CFE5003D08D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +58,11 @@
 		86F326AA1EE6CDA1003D08D3 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				86F3272B1EE6D058003D08D3 /* Parser */,
 				86F3271C1EE6CF96003D08D3 /* ObjectParsers */,
+				86F3272B1EE6D058003D08D3 /* Parser */,
 				86F327201EE6CF96003D08D3 /* ResponseParsers */,
-				86F326AB1EE6CDA1003D08D3 /* Parsers.h */,
 				86F326AC1EE6CDA1003D08D3 /* Info.plist */,
+				86F326AB1EE6CDA1003D08D3 /* Parsers.h */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 				86F3271E1EE6CF96003D08D3 /* CDUserParser.swift */,
 			);
 			name = ObjectParsers;
-			path = Parsers/ObjectParsers;
+			path = ObjectParsers;
 			sourceTree = "<group>";
 		};
 		86F327201EE6CF96003D08D3 /* ResponseParsers */ = {
@@ -83,7 +83,7 @@
 				86F327211EE6CF96003D08D3 /* TweetSearchResponseParser.swift */,
 			);
 			name = ResponseParsers;
-			path = Parsers/ResponseParsers;
+			path = ResponseParsers;
 			sourceTree = "<group>";
 		};
 		86F327281EE6CFE5003D08D3 /* Frameworks */ = {
@@ -100,6 +100,7 @@
 				86F3271F1EE6CF96003D08D3 /* Parser.swift */,
 			);
 			name = Parser;
+			path = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

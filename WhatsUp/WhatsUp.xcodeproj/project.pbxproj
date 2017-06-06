@@ -125,8 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				86F3278F1EE6D141003D08D3 /* Frameworks */,
-				86F326521EE6CD59003D08D3 /* WhatsUp */,
 				86F326511EE6CD59003D08D3 /* Products */,
+				86F326521EE6CD59003D08D3 /* WhatsUp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,13 +141,13 @@
 		86F326521EE6CD59003D08D3 /* WhatsUp */ = {
 			isa = PBXGroup;
 			children = (
-				86F3279D1EE6D1FD003D08D3 /* Modules */,
 				86F3279A1EE6D1EE003D08D3 /* Common */,
+				86F3279D1EE6D1FD003D08D3 /* Modules */,
+				86F327901EE6D1A0003D08D3 /* AppDelegate.swift */,
+				86F327921EE6D1B7003D08D3 /* Assets.xcassets */,
+				86F3265F1EE6CD59003D08D3 /* Info.plist */,
 				86F327941EE6D1E0003D08D3 /* LaunchScreen.storyboard */,
 				86F327961EE6D1E0003D08D3 /* Main.storyboard */,
-				86F327921EE6D1B7003D08D3 /* Assets.xcassets */,
-				86F327901EE6D1A0003D08D3 /* AppDelegate.swift */,
-				86F3265F1EE6CD59003D08D3 /* Info.plist */,
 			);
 			path = WhatsUp;
 			sourceTree = "<group>";
@@ -200,11 +200,11 @@
 				86F327A41EE6D1FE003D08D3 /* APIErrorView */,
 				86F327A71EE6D1FE003D08D3 /* NoDataEmptyView */,
 				86F327AA1EE6D1FE003D08D3 /* NoInternetErrorView */,
+				86F327B11EE6D1FE003D08D3 /* TweetTableViewCell */,
 				86F327AD1EE6D1FE003D08D3 /* TweetListUI.swift */,
 				86F327AE1EE6D1FE003D08D3 /* TweetListUIPresenter.swift */,
 				86F327AF1EE6D1FE003D08D3 /* TweetListViewController.swift */,
 				86F327B01EE6D1FE003D08D3 /* TweetListViewController.xib */,
-				86F327B11EE6D1FE003D08D3 /* TweetTableViewCell */,
 			);
 			path = TweetListUI;
 			sourceTree = "<group>";
@@ -380,6 +380,7 @@
 				86F327951EE6D1E0003D08D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		86F327961EE6D1E0003D08D3 /* Main.storyboard */ = {
@@ -388,6 +389,7 @@
 				86F327971EE6D1E0003D08D3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

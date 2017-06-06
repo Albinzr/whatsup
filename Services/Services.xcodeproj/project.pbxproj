@@ -73,9 +73,9 @@
 		86F326C81EE6CE01003D08D3 = {
 			isa = PBXGroup;
 			children = (
+				86F326D31EE6CE01003D08D3 /* Products */,
 				86F326D41EE6CE01003D08D3 /* Services */,
 				86F326DF1EE6CE01003D08D3 /* ServicesTests */,
-				86F326D31EE6CE01003D08D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +94,8 @@
 				86F327001EE6CE62003D08D3 /* APIClient */,
 				86F326F91EE6CE5E003D08D3 /* Services */,
 				86F326EC1EE6CE58003D08D3 /* WebAPIAdapter */,
-				86F326D51EE6CE01003D08D3 /* Services.h */,
 				86F326D61EE6CE01003D08D3 /* Info.plist */,
+				86F326D51EE6CE01003D08D3 /* Services.h */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -103,8 +103,8 @@
 		86F326DF1EE6CE01003D08D3 /* ServicesTests */ = {
 			isa = PBXGroup;
 			children = (
-				86F327031EE6CE9B003D08D3 /* ServicesTests.swift */,
 				86F326E21EE6CE01003D08D3 /* Info.plist */,
+				86F327031EE6CE9B003D08D3 /* ServicesTests.swift */,
 			);
 			path = ServicesTests;
 			sourceTree = "<group>";

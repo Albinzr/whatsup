@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869717A71EE720E9006DB7AC /* FRCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697179D1EE720E9006DB7AC /* FRCManager.swift */; };
+		869717A81EE720E9006DB7AC /* TwitterAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A01EE720E9006DB7AC /* TwitterAuthManager.swift */; };
+		869717A91EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A11EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift */; };
+		869717AA1EE720E9006DB7AC /* TwitterSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A31EE720E9006DB7AC /* TwitterSearchManager.swift */; };
+		869717AB1EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A41EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift */; };
+		869717AC1EE720E9006DB7AC /* AuthUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A61EE720E9006DB7AC /* AuthUtil.swift */; };
 		86F3268E1EE6CD8F003D08D3 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F326841EE6CD8F003D08D3 /* Logic.framework */; };
 		86F326931EE6CD8F003D08D3 /* LogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326921EE6CD8F003D08D3 /* LogicTests.swift */; };
 		86F326951EE6CD8F003D08D3 /* Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F326871EE6CD8F003D08D3 /* Logic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86F327301EE6D06B003D08D3 /* Parsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F3272D1EE6D06B003D08D3 /* Parsers.framework */; };
 		86F327311EE6D06B003D08D3 /* PersistenceStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F3272E1EE6D06B003D08D3 /* PersistenceStore.framework */; };
 		86F327321EE6D06B003D08D3 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F3272F1EE6D06B003D08D3 /* Services.framework */; };
-		86F327351EE6D07F003D08D3 /* FRCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327341EE6D07F003D08D3 /* FRCManager.swift */; };
-		86F3273F1EE6D089003D08D3 /* TwitterAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327381EE6D089003D08D3 /* TwitterAuthManager.swift */; };
-		86F327401EE6D089003D08D3 /* TwitterAuthManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327391EE6D089003D08D3 /* TwitterAuthManagerDefaultImpl.swift */; };
-		86F327411EE6D089003D08D3 /* TwitterSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3273B1EE6D089003D08D3 /* TwitterSearchManager.swift */; };
-		86F327421EE6D089003D08D3 /* TwitterSearchManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3273C1EE6D089003D08D3 /* TwitterSearchManagerDefaultImpl.swift */; };
-		86F327431EE6D089003D08D3 /* AuthUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3273E1EE6D089003D08D3 /* AuthUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8697179D1EE720E9006DB7AC /* FRCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRCManager.swift; sourceTree = "<group>"; };
+		869717A01EE720E9006DB7AC /* TwitterAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAuthManager.swift; sourceTree = "<group>"; };
+		869717A11EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAuthManagerDefaultImpl.swift; sourceTree = "<group>"; };
+		869717A31EE720E9006DB7AC /* TwitterSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManager.swift; sourceTree = "<group>"; };
+		869717A41EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManagerDefaultImpl.swift; sourceTree = "<group>"; };
+		869717A61EE720E9006DB7AC /* AuthUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUtil.swift; sourceTree = "<group>"; };
 		86F326841EE6CD8F003D08D3 /* Logic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F326871EE6CD8F003D08D3 /* Logic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		86F326881EE6CD8F003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +47,6 @@
 		86F3272D1EE6D06B003D08D3 /* Parsers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parsers.framework; path = "../Parsers/build/Debug-iphoneos/Parsers.framework"; sourceTree = "<group>"; };
 		86F3272E1EE6D06B003D08D3 /* PersistenceStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceStore.framework; path = "../PersistenceStore/build/Debug-iphoneos/PersistenceStore.framework"; sourceTree = "<group>"; };
 		86F3272F1EE6D06B003D08D3 /* Services.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Services.framework; path = "../Services/build/Debug-iphoneos/Services.framework"; sourceTree = "<group>"; };
-		86F327341EE6D07F003D08D3 /* FRCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRCManager.swift; sourceTree = "<group>"; };
-		86F327381EE6D089003D08D3 /* TwitterAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAuthManager.swift; sourceTree = "<group>"; };
-		86F327391EE6D089003D08D3 /* TwitterAuthManagerDefaultImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAuthManagerDefaultImpl.swift; sourceTree = "<group>"; };
-		86F3273B1EE6D089003D08D3 /* TwitterSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManager.swift; sourceTree = "<group>"; };
-		86F3273C1EE6D089003D08D3 /* TwitterSearchManagerDefaultImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManagerDefaultImpl.swift; sourceTree = "<group>"; };
-		86F3273E1EE6D089003D08D3 /* AuthUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +71,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8697179C1EE720E9006DB7AC /* FRCManager */ = {
+			isa = PBXGroup;
+			children = (
+				8697179D1EE720E9006DB7AC /* FRCManager.swift */,
+			);
+			path = FRCManager;
+			sourceTree = "<group>";
+		};
+		8697179E1EE720E9006DB7AC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8697179F1EE720E9006DB7AC /* TwitterAuthManager */,
+				869717A21EE720E9006DB7AC /* TwitterSearchManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8697179F1EE720E9006DB7AC /* TwitterAuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				869717A01EE720E9006DB7AC /* TwitterAuthManager.swift */,
+				869717A11EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift */,
+			);
+			path = TwitterAuthManager;
+			sourceTree = "<group>";
+		};
+		869717A21EE720E9006DB7AC /* TwitterSearchManager */ = {
+			isa = PBXGroup;
+			children = (
+				869717A31EE720E9006DB7AC /* TwitterSearchManager.swift */,
+				869717A41EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift */,
+			);
+			path = TwitterSearchManager;
+			sourceTree = "<group>";
+		};
+		869717A51EE720E9006DB7AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				869717A61EE720E9006DB7AC /* AuthUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		86F3267A1EE6CD8F003D08D3 = {
 			isa = PBXGroup;
 			children = (
+				86F3272C1EE6D06B003D08D3 /* Frameworks */,
 				86F326861EE6CD8F003D08D3 /* Logic */,
 				86F326911EE6CD8F003D08D3 /* LogicTests */,
 				86F326851EE6CD8F003D08D3 /* Products */,
-				86F3272C1EE6D06B003D08D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,11 +136,11 @@
 		86F326861EE6CD8F003D08D3 /* Logic */ = {
 			isa = PBXGroup;
 			children = (
-				86F327331EE6D07F003D08D3 /* FRCManager */,
-				86F327361EE6D089003D08D3 /* Managers */,
-				86F3273D1EE6D089003D08D3 /* Utils */,
-				86F326871EE6CD8F003D08D3 /* Logic.h */,
+				8697179C1EE720E9006DB7AC /* FRCManager */,
+				8697179E1EE720E9006DB7AC /* Managers */,
+				869717A51EE720E9006DB7AC /* Utils */,
 				86F326881EE6CD8F003D08D3 /* Info.plist */,
+				86F326871EE6CD8F003D08D3 /* Logic.h */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -105,8 +148,8 @@
 		86F326911EE6CD8F003D08D3 /* LogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				86F326921EE6CD8F003D08D3 /* LogicTests.swift */,
 				86F326941EE6CD8F003D08D3 /* Info.plist */,
+				86F326921EE6CD8F003D08D3 /* LogicTests.swift */,
 			);
 			path = LogicTests;
 			sourceTree = "<group>";
@@ -119,52 +162,6 @@
 				86F3272F1EE6D06B003D08D3 /* Services.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		86F327331EE6D07F003D08D3 /* FRCManager */ = {
-			isa = PBXGroup;
-			children = (
-				86F327341EE6D07F003D08D3 /* FRCManager.swift */,
-			);
-			name = FRCManager;
-			path = ../../../whatsuptwitter/LogicKit/LogicKit/FRCManager;
-			sourceTree = "<group>";
-		};
-		86F327361EE6D089003D08D3 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				86F327371EE6D089003D08D3 /* TwitterAuthManager */,
-				86F3273A1EE6D089003D08D3 /* TwitterSearchManager */,
-			);
-			name = Managers;
-			path = ../../../whatsuptwitter/LogicKit/LogicKit/Managers;
-			sourceTree = "<group>";
-		};
-		86F327371EE6D089003D08D3 /* TwitterAuthManager */ = {
-			isa = PBXGroup;
-			children = (
-				86F327381EE6D089003D08D3 /* TwitterAuthManager.swift */,
-				86F327391EE6D089003D08D3 /* TwitterAuthManagerDefaultImpl.swift */,
-			);
-			path = TwitterAuthManager;
-			sourceTree = "<group>";
-		};
-		86F3273A1EE6D089003D08D3 /* TwitterSearchManager */ = {
-			isa = PBXGroup;
-			children = (
-				86F3273B1EE6D089003D08D3 /* TwitterSearchManager.swift */,
-				86F3273C1EE6D089003D08D3 /* TwitterSearchManagerDefaultImpl.swift */,
-			);
-			path = TwitterSearchManager;
-			sourceTree = "<group>";
-		};
-		86F3273D1EE6D089003D08D3 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				86F3273E1EE6D089003D08D3 /* AuthUtil.swift */,
-			);
-			name = Utils;
-			path = ../../../whatsuptwitter/LogicKit/LogicKit/Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,12 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F327351EE6D07F003D08D3 /* FRCManager.swift in Sources */,
-				86F327411EE6D089003D08D3 /* TwitterSearchManager.swift in Sources */,
-				86F3273F1EE6D089003D08D3 /* TwitterAuthManager.swift in Sources */,
-				86F327421EE6D089003D08D3 /* TwitterSearchManagerDefaultImpl.swift in Sources */,
-				86F327401EE6D089003D08D3 /* TwitterAuthManagerDefaultImpl.swift in Sources */,
-				86F327431EE6D089003D08D3 /* AuthUtil.swift in Sources */,
+				869717A71EE720E9006DB7AC /* FRCManager.swift in Sources */,
+				869717AA1EE720E9006DB7AC /* TwitterSearchManager.swift in Sources */,
+				869717A81EE720E9006DB7AC /* TwitterAuthManager.swift in Sources */,
+				869717AB1EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift in Sources */,
+				869717A91EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift in Sources */,
+				869717AC1EE720E9006DB7AC /* AuthUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +490,7 @@
 				86F3269A1EE6CD8F003D08D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86F3269B1EE6CD8F003D08D3 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +499,7 @@
 				86F3269D1EE6CD8F003D08D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -67,8 +67,8 @@
 				86F327151EE6CF5E003D08D3 /* CoreDataStack */,
 				86F327051EE6CF59003D08D3 /* PersistantModels */,
 				86F3270C1EE6CF59003D08D3 /* TransientModels */,
-				86F326C01EE6CDE1003D08D3 /* PersistenceStore.h */,
 				86F326C11EE6CDE1003D08D3 /* Info.plist */,
+				86F326C01EE6CDE1003D08D3 /* PersistenceStore.h */,
 			);
 			path = PersistenceStore;
 			sourceTree = "<group>";
