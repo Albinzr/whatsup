@@ -12,7 +12,7 @@ public class LargeSizeLightTypeLabel: UILabel {
 
     @IBInspectable public var themeTextColor: String? {
         didSet {
-            self.textColor = Theme.keyToColorMap[themeTextColor!] ?? self.textColor
+            self.textColor = Theme.Color.keyToColorMap[themeTextColor!] ?? self.textColor
         }
     }
 

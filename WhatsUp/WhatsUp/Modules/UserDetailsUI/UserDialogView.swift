@@ -89,7 +89,7 @@ class UserDialogView: UIView, UserDialogUI {
             ivVerifiedImageView.isHidden = true
         }
         
-        lUsernameLabel.text = user.screenName
+        lUsernameLabel.text = "@\(user.screenName ?? "jhon_doe")"
         lFullNameLabel.text = user.name
         
         if user.following == true {

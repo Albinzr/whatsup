@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		869717611EE71F58006DB7AC /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717601EE71F58006DB7AC /* LightTheme.swift */; };
-		869717631EE71F63006DB7AC /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717621EE71F63006DB7AC /* DarkTheme.swift */; };
 		869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */; };
 		869717851EE7206D006DB7AC /* FilledPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */; };
 		869717861EE7206D006DB7AC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717671EE7206D006DB7AC /* PrimaryButton.swift */; };
@@ -38,8 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		869717601EE71F58006DB7AC /* LightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
-		869717621EE71F63006DB7AC /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedPrimaryButton.swift; sourceTree = "<group>"; };
 		869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilledPrimaryButton.swift; sourceTree = "<group>"; };
 		869717671EE7206D006DB7AC /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
@@ -198,8 +194,6 @@
 		86F327D61EE6D29F003D08D3 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				869717621EE71F63006DB7AC /* DarkTheme.swift */,
-				869717601EE71F58006DB7AC /* LightTheme.swift */,
 				86F327D71EE6D2C7003D08D3 /* Theme.swift */,
 			);
 			path = Theme;
@@ -294,13 +288,11 @@
 				869717961EE7206D006DB7AC /* RegularSizeRegularTypeLabel.swift in Sources */,
 				8697179B1EE7206D006DB7AC /* SmallSizeSemiBoldTypeLabel.swift in Sources */,
 				869717991EE7206D006DB7AC /* SmallSizeLightTypeLabel.swift in Sources */,
-				869717631EE71F63006DB7AC /* DarkTheme.swift in Sources */,
 				869717921EE7206D006DB7AC /* LargeSizeRegularTypeLabel.swift in Sources */,
 				869717891EE7206D006DB7AC /* ExLargeSizeLightTypeLabel.swift in Sources */,
 				869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */,
 				869717941EE7206D006DB7AC /* RegularSizeBoldTypeLabel.swift in Sources */,
 				8697178F1EE7206D006DB7AC /* ExSmallSizeSemiBoldTypeLabel.swift in Sources */,
-				869717611EE71F58006DB7AC /* LightTheme.swift in Sources */,
 				869717951EE7206D006DB7AC /* RegularSizeLightTypeLabel.swift in Sources */,
 				8697179A1EE7206D006DB7AC /* SmallSizeRegularTypeLabel.swift in Sources */,
 				86F327D81EE6D2C7003D08D3 /* Theme.swift in Sources */,

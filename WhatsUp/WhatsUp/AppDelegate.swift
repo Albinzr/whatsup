@@ -18,8 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        Theme.setDarkTheme()
-        
         if let bearerToken = AuthUtil.getAccessToken() {
             APIClient.shared.setDefaultHeaders(headers: ["Authorization": "Bearer \(bearerToken)"])
             
