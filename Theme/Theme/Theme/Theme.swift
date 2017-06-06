@@ -75,8 +75,13 @@ public class Theme {
         "Color.Border.native": Color.Border.native,
         ] as [String: UIColor]
     
-    static func setLightTheme() {
+    public static func setLightTheme() {
         Theme.Font = LightThemeFont.self
         Theme.Color = LightThemeColor.self
+    }
+    
+    public static func setDarkTheme() {
+        Theme.Font = DarkThemeFont.self
+        Theme.Color = DarkThemeColor.self
     }
 }

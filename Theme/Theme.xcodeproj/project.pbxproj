@@ -202,7 +202,6 @@
 				869717601EE71F58006DB7AC /* LightTheme.swift */,
 				86F327D71EE6D2C7003D08D3 /* Theme.swift */,
 			);
-			name = Theme;
 			path = Theme;
 			sourceTree = "<group>";
 		};

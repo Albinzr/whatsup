@@ -9,6 +9,7 @@
 import UIKit
 import Logic
 import Services
+import Theme
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        Theme.setDarkTheme()
         
         if let bearerToken = AuthUtil.getAccessToken() {
             APIClient.shared.setDefaultHeaders(headers: ["Authorization": "Bearer \(bearerToken)"])
