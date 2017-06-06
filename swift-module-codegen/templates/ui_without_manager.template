@@ -1,0 +1,15 @@
+//
+//  <# Module #>UI.swift
+//  <# Project Name #>
+//
+//  Created by <# Author #> on <# Date #>.
+//  Copyright © <# Year #> <# Copy Right #>. All rights reserved.
+//
+
+import Foundation
+
+protocol <# Module #>UI: class {
+    static func newInstance() -> <# Module #>UI!
+
+    func dismissUI()
+}

@@ -1,0 +1,73 @@
+//
+//  NoInternetErrorView.swift
+//  WhatsUp
+//
+//  Created by Ankur Kesharwani on 05/06/17.
+//  Copyright © 2017 Ankur Kesharwani. All rights reserved.
+//
+
+import UIKit
+
+protocol TweetListNoInternetErrorViewDelegate: class {
+    func didTouchUpInsidePrimaryButton(errorView: TweetListNoInternetErrorView)
+}
+
+class TweetListNoInternetErrorView: UIView {
+    
+    // MARK: Static/Class Methods
+    
+    class func newInstance() -> TweetListNoInternetErrorView {
+        let view = Bundle.main.loadNibNamed("TweetListNoInternetErrorView",
+                                            owner: nil, options: nil)?.first as! TweetListNoInternetErrorView
+        
+        return view
+    }
+    
+    // MARK: IBOutlets
+    
+    @IBOutlet var ivImageView: UIImageView!
+    @IBOutlet var lTitleLable: UILabel!
+    @IBOutlet var lSubtitleLabel: UILabel!
+    @IBOutlet var bPrimaryButton: UIButton!
+    
+    // MARK: Properties
+    
+    weak var delegate: TweetListNoInternetErrorViewDelegate?
+    
+    // MARK: Constants
+    
+    // MARK: Lifecycle Methods
+    
+    // MARK: Public Methods
+    
+    func showPrimaryButton() {
+        bPrimaryButton.isHidden = false
+    }
+    
+    func hidePrimaryButton() {
+        bPrimaryButton.isHidden = true
+    }
+    
+    func set(title: String, subTitle: String, buttonTitle: String?) {
+        lTitleLable.text = title
+        lSubtitleLabel.text = subTitle
+        
+        if buttonTitle == nil {
+            hidePrimaryButton()
+        }
+        
+        showPrimaryButton()
+        bPrimaryButton.setTitle(buttonTitle, for: .normal)
+    }
+    
+    // MARK: Open Access Methods
+    
+    // MARK: Private Methods
+    
+    // MARK: IBActions
+    
+    @IBAction func bActionprimaryButton() {
+        delegate?.didTouchUpInsidePrimaryButton(errorView: self)
+    }
+}
+

@@ -1,0 +1,40 @@
+//
+//  <# Module #>UI.swift
+//  <# Project Name #>
+//
+//  Created by <# Author #> on <# Date #>.
+//  Copyright © <# Year #> <# Copy Right #>. All rights reserved.
+//
+
+import UIKit
+
+class <# Module #>ViewController: UIViewController, <# Module #>UI {
+
+    // MARK: Static/Class Methods
+
+    static func newInstance() -> <# Module #>UI! {
+        return <# Module #>ViewController.init(nibName: "<# Module #>ViewController", bundle: nil)
+    }
+
+    // MARK: IBOutlets
+
+    // MARK: Properties
+
+    var manager: <# Module #>Manager!
+
+    // MARK: Constants
+
+    // MARK: Lifecycle Methods
+
+    // MARK: Public Methods
+
+    func dismissUI() {
+        // TODO: Provide own implementation
+    }
+
+    // MARK: Open Access Methods
+
+    // MARK: Private Methods
+
+    // MARK: IBActions
+}

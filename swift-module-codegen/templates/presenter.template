@@ -1,0 +1,21 @@
+//
+//  <# Module #>UI.swift
+//  <# Project Name #>
+//
+//  Created by <# Author #> on <# Date #>.
+//  Copyright © <# Year #> <# Copy Right #>. All rights reserved.
+//
+
+import UIKit
+
+struct <# Module #>UIInitParams {
+}
+
+protocol <# Module #>UIPresenter {
+    func init<# Module #>UI(initParams: <# Module #>UIInitParams) -> <# Module #>UI!
+    func present<# Module #>UI(_ ui: <# Module #>UI)
+}
+
+extension <# Module #>UIPresenter where Self: UIViewController {
+<# init func #>
+<# present func #>}

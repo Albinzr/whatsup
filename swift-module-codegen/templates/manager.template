@@ -1,0 +1,20 @@
+//
+//  <# Module #>UI.swift
+//  <# Project Name #>
+//
+//  Created by <# Author #> on <# Date #>.
+//  Copyright © <# Year #> <# Copy Right #>. All rights reserved.
+//
+
+import Foundation
+
+protocol <# Module #>ManagerDelegate: class {
+}
+
+protocol <# Module #>Manager: class {
+    weak var delegate: <# Module #>ManagerDelegate? { get set }
+}
+
+class <# Module #>ManagerImplementation: <# Module #>Manager {
+    weak var delegate: <# Module #>ManagerDelegate?
+}

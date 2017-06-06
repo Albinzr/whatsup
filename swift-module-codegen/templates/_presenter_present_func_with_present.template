@@ -1,0 +1,7 @@
+    func present<# Module #>UI(_ ui: <# Module #>UI) {
+        let viewController = ui as! <# Module #>ViewController
+        viewController.isPresentedModally = true
+        let navCrtl = UINavigationController.init(rootViewController: viewController)
+
+        present(navCrtl, animated: true, completion: nil)
+    }

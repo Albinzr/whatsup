@@ -1,0 +1,7 @@
+    func init<# Module #>UI(initParams: <# Module #>UIInitParams) -> <# Module #>UI! {
+        let viewController = <# Module #>ViewController.newInstance() as <# Module #>UI
+        viewController.manager = <# Module #>ManagerImplementation()
+        viewController.manager.delegate = viewController
+
+        return viewController
+    }
