@@ -24,7 +24,7 @@ public protocol TwitterSearchManagerDelegate: class {
 }
 
 public protocol TwitterSearchManager: class {
-    weak var delegate: TwitterSearchManagerDelegate? { get set }
+    var delegate: TwitterSearchManagerDelegate? { get set }
     var context: NSManagedObjectContext! { get set }
     
     func fetchTweetsForSearchString(_ string: String)

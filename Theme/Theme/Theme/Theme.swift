@@ -23,7 +23,7 @@ public class Theme {
         }
         
         public class func light(size: CGFloat) -> UIFont {
-            return UIFont.systemFont(ofSize: size, weight: UIFontWeightLight)
+            return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.light)
         }
         
         public class func regular(size: Size) -> UIFont {
@@ -31,7 +31,7 @@ public class Theme {
         }
         
         public class func regular(size: CGFloat) -> UIFont {
-            return UIFont.systemFont(ofSize: size, weight: UIFontWeightRegular)
+            return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.regular)
         }
         
         public class func semibold(size: Size) -> UIFont {
@@ -39,7 +39,7 @@ public class Theme {
         }
         
         public class func semibold(size: CGFloat) -> UIFont {
-            return UIFont.systemFont(ofSize: size, weight: UIFontWeightSemibold)
+            return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.semibold)
         }
         
         public class func bold(size: Size) -> UIFont {
@@ -47,7 +47,7 @@ public class Theme {
         }
         
         public class func bold(size: CGFloat) -> UIFont {
-            return UIFont.systemFont(ofSize: size, weight: UIFontWeightBold)
+            return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.bold)
         }
     }
     

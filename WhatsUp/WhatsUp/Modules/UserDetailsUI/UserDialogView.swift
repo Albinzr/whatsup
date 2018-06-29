@@ -107,7 +107,7 @@ class UserDialogView: UIView, UserDialogUI {
     
     // MARK: IBActions
     
-    func grActionBackdropTapGestureRecognizer(gestureRecognizer: UITapGestureRecognizer) {
+    @objc func grActionBackdropTapGestureRecognizer(gestureRecognizer: UITapGestureRecognizer) {
         dismissUI()
     }
 }

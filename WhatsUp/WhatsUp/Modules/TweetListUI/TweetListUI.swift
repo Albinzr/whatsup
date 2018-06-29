@@ -9,7 +9,7 @@
 import Foundation
 import Logic
 
-protocol TweetListUI: class, TwitterSearchManagerDelegate {
+protocol TweetListUI: TwitterSearchManagerDelegate {
     static func newInstance() -> TweetListUI!
 
     var twitterSearchManager: TwitterSearchManager! { get set }

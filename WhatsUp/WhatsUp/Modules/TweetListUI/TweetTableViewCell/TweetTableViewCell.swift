@@ -68,8 +68,8 @@ class TweetTableViewCell: UITableViewCell {
             
             for link in links {
                 let range = NSRange.init(location: Int(link.startIndex), length: Int(link.length))
-                attributedText.addAttributes([NSForegroundColorAttributeName : Theme.Color.skyBlue,
-                                              NSFontAttributeName: Theme.Font.semibold(size: .large)], range: range)
+                attributedText.addAttributes([NSAttributedStringKey.foregroundColor : Theme.Color.skyBlue,
+                                              NSAttributedStringKey.font: Theme.Font.semibold(size: .large)], range: range)
             }
             
             lText.attributedText = attributedText

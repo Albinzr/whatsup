@@ -70,9 +70,9 @@ class TweetListViewController: UIViewController,
         // TODO: Provide own implementation
     }
     
-    func fetchTweets() {
+    @objc func fetchTweets() {
         let searchString = sbSearchBar.text!
-        guard searchString.characters.count > 0 else {
+        guard searchString.count > 0 else {
             hideLoader()
             rcRefreshControl?.endRefreshing()
             

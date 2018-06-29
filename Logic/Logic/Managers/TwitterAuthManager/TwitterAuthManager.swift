@@ -23,7 +23,7 @@ public protocol TwitterAuthManagerDelegate: class {
 }
 
 public protocol TwitterAuthManager: class {
-    weak var delegate: TwitterAuthManagerDelegate? { get set }
+    var delegate: TwitterAuthManagerDelegate? { get set }
     
     func authenticate(consumerKey: String, secretKey: String)
 }

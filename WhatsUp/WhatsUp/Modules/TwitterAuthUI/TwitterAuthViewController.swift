@@ -81,10 +81,10 @@ class TwitterAuthViewController: UIViewController, TwitterAuthUI {
         ivSunImageView.alpha = 0.0
         ivSmallCloudImageView.alpha = 0.0
         ivBigCloudImageView.alpha = 0.0
-        lc_leadingSpace_ivBigCloudImageView_superView.priority = 250
-        lc_topSpace_ivSunImageView_superView.priority = 250
-        lc_trailingSpace_ivSmallCloudImageView_superView.priority = 250
-        lc_center_ivBaloonImageView_superView.priority = 250
+        lc_leadingSpace_ivBigCloudImageView_superView.priority = UILayoutPriority(rawValue: 250)
+        lc_topSpace_ivSunImageView_superView.priority = UILayoutPriority(rawValue: 250)
+        lc_trailingSpace_ivSmallCloudImageView_superView.priority = UILayoutPriority(rawValue: 250)
+        lc_center_ivBaloonImageView_superView.priority = UILayoutPriority(rawValue: 250)
         UIView.animate(withDuration: 1.5, delay: 0.5, options: .curveEaseOut, animations: {
             self.view.layoutIfNeeded()
             self.ivBaloonImageView.alpha = 1

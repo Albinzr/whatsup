@@ -9,7 +9,7 @@
 import Foundation
 import Logic
 
-protocol TwitterAuthUI: class, TwitterAuthManagerDelegate {
+protocol TwitterAuthUI: TwitterAuthManagerDelegate {
     static func newInstance() -> TwitterAuthUI!
 
     var manager: TwitterAuthManager! { get set }

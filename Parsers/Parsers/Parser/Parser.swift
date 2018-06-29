@@ -107,7 +107,7 @@ public class Parser {
     }
     
     class func toNil(string: String?) -> String? {
-        if string?.characters.count == 0 {
+        if string?.count == 0 {
             return nil
         }
         return string
