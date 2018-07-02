@@ -1,0 +1,11 @@
+//
+//  Release.xcconfig
+//  Theme
+//
+//  Created by Ankur Kesharwani on 02/07/18.
+//  Copyright © 2018 Ankur Kesharwani. All rights reserved.
+//
+
+appName = Logic
+bundleId = AK.Logic
+version = 1.0

@@ -1,0 +1,11 @@
+//
+//  Stage.xcconfig
+//  Theme
+//
+//  Created by Ankur Kesharwani on 02/07/18.
+//  Copyright © 2018 Ankur Kesharwani. All rights reserved.
+//
+
+appName = Parsers Stage
+bundleId = AK.Parsers.stage
+version = 1.0-stage

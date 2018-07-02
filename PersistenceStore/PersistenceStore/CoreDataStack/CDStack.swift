@@ -115,8 +115,9 @@ public class CDStack {
         // Find this bundle
         var thisBundle: Bundle!
         let bundles: [Bundle] =  Bundle.allFrameworks
+        
         for bundle in bundles {
-            if bundle.bundleIdentifier == "AK.PersistenceStore" {
+            if (bundle.bundleIdentifier?.contains("AK.PersistenceStore")) == true {
                 thisBundle = bundle
                 
                 break

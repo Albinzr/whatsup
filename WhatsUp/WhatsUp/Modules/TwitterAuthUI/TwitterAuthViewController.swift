@@ -43,10 +43,8 @@ class TwitterAuthViewController: UIViewController, TwitterAuthUI {
 
     // MARK: Constants
     
-    let consumerKey = "zjgG4MFIqZX5C3b6zogJwVOPC"
-    let secretKey = "sYv2lgDjnmQkEFlj698qpI3tcnrCMbSmncfttlQenljXiPjF4c"
-//    let consumerKey = ""
-//    let secretKey = ""
+    let consumerKey: String? = Environment.configuration(.consumerKey)
+    let secretKey: String? = Environment.configuration(.secretKey)
     
     // MARK: Lifecycle Methods
     
@@ -73,7 +71,7 @@ class TwitterAuthViewController: UIViewController, TwitterAuthUI {
     }
     
     private func authenticate() {
-        manager.authenticate(consumerKey: consumerKey, secretKey: secretKey)
+        manager.authenticate(consumerKey: consumerKey!, secretKey: secretKey!)
     }
     
     private func startLogoAnimation() {

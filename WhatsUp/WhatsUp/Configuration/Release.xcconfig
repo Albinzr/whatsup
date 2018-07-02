@@ -1,0 +1,14 @@
+//
+//  Release.xcconfig
+//  WhatsUp
+//
+//  Created by Ankur Kesharwani on 29/06/18.
+//  Copyright © 2018 Ankur Kesharwani. All rights reserved.
+//
+
+appName = WhatsUp
+bundleId = AK.WhatsUp
+version = 1.0
+
+consumerKey = zjgG4MFIqZX5C3b6zogJwVOPC
+secretKey = sYv2lgDjnmQkEFlj698qpI3tcnrCMbSmncfttlQenljXiPjF4c
