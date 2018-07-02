@@ -20,6 +20,76 @@
                ReferencedContainer = "container:WhatsUp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86F326831EE6CD8F003D08D3"
+               BuildableName = "Logic.framework"
+               BlueprintName = "Logic"
+               ReferencedContainer = "container:../Logic/Logic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86F326A71EE6CDA1003D08D3"
+               BuildableName = "Parsers.framework"
+               BlueprintName = "Parsers"
+               ReferencedContainer = "container:../Parsers/Parsers.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86F326BC1EE6CDE1003D08D3"
+               BuildableName = "PersistenceStore.framework"
+               BlueprintName = "PersistenceStore"
+               ReferencedContainer = "container:../PersistenceStore/PersistenceStore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86F326D11EE6CE01003D08D3"
+               BuildableName = "Services.framework"
+               BlueprintName = "Services"
+               ReferencedContainer = "container:../Services/Services.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86F3266E1EE6CD6D003D08D3"
+               BuildableName = "Theme.framework"
+               BlueprintName = "Theme"
+               ReferencedContainer = "container:../Theme/Theme.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

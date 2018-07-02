@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		474697DB20EA1C280056372E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697D820EA1C270056372E /* Debug.xcconfig */; };
+		474697DC20EA1C280056372E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697D920EA1C270056372E /* Release.xcconfig */; };
+		474697DD20EA1C280056372E /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697DA20EA1C270056372E /* Stage.xcconfig */; };
 		869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */; };
 		869717851EE7206D006DB7AC /* FilledPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */; };
 		869717861EE7206D006DB7AC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717671EE7206D006DB7AC /* PrimaryButton.swift */; };
@@ -36,9 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4752231020E9FCF5000B1AAD /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		4752231120E9FD01000B1AAD /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
-		4752231220E9FD0D000B1AAD /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		474697D820EA1C270056372E /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		474697D920EA1C270056372E /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		474697DA20EA1C270056372E /* Stage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedPrimaryButton.swift; sourceTree = "<group>"; };
 		869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilledPrimaryButton.swift; sourceTree = "<group>"; };
 		869717671EE7206D006DB7AC /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
@@ -83,10 +86,10 @@
 		4752231F20E9FF12000B1AAD /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				474697D820EA1C270056372E /* Debug.xcconfig */,
+				474697D920EA1C270056372E /* Release.xcconfig */,
+				474697DA20EA1C270056372E /* Stage.xcconfig */,
 				86F326731EE6CD6D003D08D3 /* Info.plist */,
-				4752231220E9FD0D000B1AAD /* Release.xcconfig */,
-				4752231120E9FD01000B1AAD /* Stage.xcconfig */,
-				4752231020E9FCF5000B1AAD /* Debug.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -284,6 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474697DD20EA1C280056372E /* Stage.xcconfig in Resources */,
+				474697DC20EA1C280056372E /* Release.xcconfig in Resources */,
+				474697DB20EA1C280056372E /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +333,7 @@
 /* Begin XCBuildConfiguration section */
 		4752231320E9FD32000B1AAD /* Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231120E9FD01000B1AAD /* Stage.xcconfig */;
+			baseConfigurationReference = 474697DA20EA1C270056372E /* Stage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -390,7 +396,7 @@
 		};
 		4752231420E9FD32000B1AAD /* Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231120E9FD01000B1AAD /* Stage.xcconfig */;
+			baseConfigurationReference = 474697DA20EA1C270056372E /* Stage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -412,7 +418,7 @@
 		};
 		86F326751EE6CD6D003D08D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231020E9FCF5000B1AAD /* Debug.xcconfig */;
+			baseConfigurationReference = 474697D820EA1C270056372E /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -475,7 +481,7 @@
 		};
 		86F326761EE6CD6D003D08D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231220E9FD0D000B1AAD /* Release.xcconfig */;
+			baseConfigurationReference = 474697D920EA1C270056372E /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -531,7 +537,7 @@
 		};
 		86F326781EE6CD6D003D08D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231020E9FCF5000B1AAD /* Debug.xcconfig */;
+			baseConfigurationReference = 474697D820EA1C270056372E /* Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -553,7 +559,7 @@
 		};
 		86F326791EE6CD6D003D08D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4752231220E9FD0D000B1AAD /* Release.xcconfig */;
+			baseConfigurationReference = 474697D920EA1C270056372E /* Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
