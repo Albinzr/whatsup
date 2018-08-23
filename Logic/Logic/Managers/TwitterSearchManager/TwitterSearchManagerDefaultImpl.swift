@@ -9,7 +9,6 @@
 import Foundation
 import Services
 import PersistenceStore
-import Parsers
 import CoreData
 
 public class TwitterSearchManagerDefaultImpl: TwitterSearchManager {

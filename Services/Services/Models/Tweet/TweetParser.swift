@@ -11,8 +11,8 @@ import Foundation
 public class TweetParser: Parser {
     public class func getTweet(from json: JSON) -> Tweet? {
         do {
-            if let strID: String = try parse(key: "id_str", from: json) {
-                let tweet = Tweet.init(strId: strID)
+            if let strId: String = try parse(key: "id_str", from: json) {
+                let tweet = Tweet.init(strId: strId)
                 update(tweet: tweet, from: json)
                 
                 return tweet

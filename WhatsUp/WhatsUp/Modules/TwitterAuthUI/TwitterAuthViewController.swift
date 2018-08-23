@@ -69,15 +69,6 @@ class TwitterAuthViewController: UIViewController, TwitterAuthUI {
     private func setupAppearance() {
         hideLoader()
         hideAuthFailedView()
-        
-        
-        let authReq = AuthRequest()
-        authReq.basicToken = "This"
-        authReq.execute { (response) in
-            if response.error != nil {
-                print(response.bearerToken ?? "")
-            }
-        }
     }
     
     private func authenticate() {

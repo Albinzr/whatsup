@@ -27,7 +27,7 @@ public class AuthRequest {
                     return
                 }
                 
-                bearerToken = dict["bearer_token"] as? String
+                bearerToken = dict["access_token"] as? String
             } else {
                 self.error = Exception.errorFor(code: response?.statusCode)
             }

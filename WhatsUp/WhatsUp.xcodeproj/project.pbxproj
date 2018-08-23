@@ -8,16 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		47DB500520EA0C5700204137 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DB500420EA0C5700204137 /* Environment.swift */; };
-		86A9902F212EDEAE00784953 /* Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A9902E212EDEAE00784953 /* Theme.framework */; };
-		86A99030212EDEAE00784953 /* Theme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86A9902E212EDEAE00784953 /* Theme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86A99032212EDEAE00784953 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99031212EDEAE00784953 /* Logic.framework */; };
-		86A99033212EDEAE00784953 /* Logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99031212EDEAE00784953 /* Logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86A99035212EDEAE00784953 /* Parsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99034212EDEAE00784953 /* Parsers.framework */; };
-		86A99036212EDEAE00784953 /* Parsers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99034212EDEAE00784953 /* Parsers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86A99038212EDEAE00784953 /* PersistenceStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99037212EDEAE00784953 /* PersistenceStore.framework */; };
-		86A99039212EDEAE00784953 /* PersistenceStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86A99037212EDEAE00784953 /* PersistenceStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86A9903B212EDEAE00784953 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A9903A212EDEAE00784953 /* Services.framework */; };
-		86A9903C212EDEAE00784953 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86A9903A212EDEAE00784953 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F66B212F22D200F1DB08 /* Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F668212F22A800F1DB08 /* Theme.framework */; };
+		86E8F66C212F22D200F1DB08 /* Theme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F668212F22A800F1DB08 /* Theme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F66D212F22D200F1DB08 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F669212F22A900F1DB08 /* Logic.framework */; };
+		86E8F66E212F22D200F1DB08 /* Logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F669212F22A900F1DB08 /* Logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F66F212F22D200F1DB08 /* PersistenceStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */; };
+		86E8F670212F22D200F1DB08 /* PersistenceStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F671212F22D200F1DB08 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F667212F22A800F1DB08 /* Services.framework */; };
+		86E8F672212F22D200F1DB08 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F667212F22A800F1DB08 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		86F327911EE6D1A0003D08D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327901EE6D1A0003D08D3 /* AppDelegate.swift */; };
 		86F327931EE6D1B7003D08D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F327921EE6D1B7003D08D3 /* Assets.xcassets */; };
 		86F327981EE6D1E0003D08D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F327941EE6D1E0003D08D3 /* LaunchScreen.storyboard */; };
@@ -56,11 +54,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				86A99039212EDEAE00784953 /* PersistenceStore.framework in Embed Frameworks */,
-				86A99030212EDEAE00784953 /* Theme.framework in Embed Frameworks */,
-				86A99033212EDEAE00784953 /* Logic.framework in Embed Frameworks */,
-				86A9903C212EDEAE00784953 /* Services.framework in Embed Frameworks */,
-				86A99036212EDEAE00784953 /* Parsers.framework in Embed Frameworks */,
+				86E8F66C212F22D200F1DB08 /* Theme.framework in Embed Frameworks */,
+				86E8F670212F22D200F1DB08 /* PersistenceStore.framework in Embed Frameworks */,
+				86E8F672212F22D200F1DB08 /* Services.framework in Embed Frameworks */,
+				86E8F66E212F22D200F1DB08 /* Logic.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,17 +68,11 @@
 		47A83DE720E62C4A00BD88F9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		47A83DE820E62EEE00BD88F9 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		47A83DE920E62EFD00BD88F9 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		47DB4FFF20EA0B2D00204137 /* Theme.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theme.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-aphmzbnfqfaaeqecmyeiztutzzvz/Build/Products/Debug-iphoneos/Theme.framework"; sourceTree = "<group>"; };
-		47DB500020EA0B2D00204137 /* Logic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logic.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-aphmzbnfqfaaeqecmyeiztutzzvz/Build/Products/Debug-iphoneos/Logic.framework"; sourceTree = "<group>"; };
-		47DB500120EA0B2E00204137 /* Services.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Services.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-aphmzbnfqfaaeqecmyeiztutzzvz/Build/Products/Debug-iphoneos/Services.framework"; sourceTree = "<group>"; };
-		47DB500220EA0B2E00204137 /* Parsers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parsers.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-aphmzbnfqfaaeqecmyeiztutzzvz/Build/Products/Debug-iphoneos/Parsers.framework"; sourceTree = "<group>"; };
-		47DB500320EA0B2E00204137 /* PersistenceStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceStore.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-aphmzbnfqfaaeqecmyeiztutzzvz/Build/Products/Debug-iphoneos/PersistenceStore.framework"; sourceTree = "<group>"; };
 		47DB500420EA0C5700204137 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		86A9902E212EDEAE00784953 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A99031212EDEAE00784953 /* Logic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A99034212EDEAE00784953 /* Parsers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Parsers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A99037212EDEAE00784953 /* PersistenceStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PersistenceStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A9903A212EDEAE00784953 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E8F667212F22A800F1DB08 /* Services.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Services.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/Services.framework"; sourceTree = "<group>"; };
+		86E8F668212F22A800F1DB08 /* Theme.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theme.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/Theme.framework"; sourceTree = "<group>"; };
+		86E8F669212F22A900F1DB08 /* Logic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logic.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/Logic.framework"; sourceTree = "<group>"; };
+		86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceStore.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/PersistenceStore.framework"; sourceTree = "<group>"; };
 		86F326501EE6CD59003D08D3 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F3265F1EE6CD59003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F327901EE6D1A0003D08D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,11 +111,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A99038212EDEAE00784953 /* PersistenceStore.framework in Frameworks */,
-				86A9902F212EDEAE00784953 /* Theme.framework in Frameworks */,
-				86A99032212EDEAE00784953 /* Logic.framework in Frameworks */,
-				86A9903B212EDEAE00784953 /* Services.framework in Frameworks */,
-				86A99035212EDEAE00784953 /* Parsers.framework in Frameworks */,
+				86E8F66B212F22D200F1DB08 /* Theme.framework in Frameworks */,
+				86E8F66F212F22D200F1DB08 /* PersistenceStore.framework in Frameworks */,
+				86E8F671212F22D200F1DB08 /* Services.framework in Frameworks */,
+				86E8F66D212F22D200F1DB08 /* Logic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +136,6 @@
 		86F326471EE6CD59003D08D3 = {
 			isa = PBXGroup;
 			children = (
-				86A9903A212EDEAE00784953 /* Services.framework */,
-				86A99037212EDEAE00784953 /* PersistenceStore.framework */,
-				86A99034212EDEAE00784953 /* Parsers.framework */,
-				86A99031212EDEAE00784953 /* Logic.framework */,
-				86A9902E212EDEAE00784953 /* Theme.framework */,
 				86F3278F1EE6D141003D08D3 /* Frameworks */,
 				86F326511EE6CD59003D08D3 /* Products */,
 				86F326521EE6CD59003D08D3 /* WhatsUp */,
@@ -182,11 +167,10 @@
 		86F3278F1EE6D141003D08D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47DB500120EA0B2E00204137 /* Services.framework */,
-				47DB500320EA0B2E00204137 /* PersistenceStore.framework */,
-				47DB500220EA0B2E00204137 /* Parsers.framework */,
-				47DB500020EA0B2D00204137 /* Logic.framework */,
-				47DB4FFF20EA0B2D00204137 /* Theme.framework */,
+				86E8F667212F22A800F1DB08 /* Services.framework */,
+				86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */,
+				86E8F669212F22A900F1DB08 /* Logic.framework */,
+				86E8F668212F22A800F1DB08 /* Theme.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -496,10 +480,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Stage;
@@ -630,10 +614,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -651,9 +635,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

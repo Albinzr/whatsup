@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4752232820EA01F2000B1AAD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232520EA01F2000B1AAD /* Release.xcconfig */; };
-		4752232920EA01F2000B1AAD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232620EA01F2000B1AAD /* Debug.xcconfig */; };
-		4752232A20EA01F2000B1AAD /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232720EA01F2000B1AAD /* Stage.xcconfig */; };
 		86A9901B212ED82000784953 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9901A212ED82000784953 /* AuthRequest.swift */; };
 		86A9902D212EDB7300784953 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9902C212EDB7300784953 /* Exception.swift */; };
 		86A9903E212EDF9F00784953 /* GetImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9903D212EDF9F00784953 /* GetImageRequest.swift */; };
@@ -332,7 +329,7 @@
 				TargetAttributes = {
 					86F326D11EE6CE01003D08D3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7DP896J59B;
+						DevelopmentTeam = XKLGJSP799;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -367,9 +364,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4752232A20EA01F2000B1AAD /* Stage.xcconfig in Resources */,
-				4752232920EA01F2000B1AAD /* Debug.xcconfig in Resources */,
-				4752232820EA01F2000B1AAD /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +493,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7DP896J59B;
+				DEVELOPMENT_TEAM = XKLGJSP799;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -507,10 +501,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.Services;
+				PRODUCT_BUNDLE_IDENTIFIER = AL.Services;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Stage;
@@ -655,7 +649,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7DP896J59B;
+				DEVELOPMENT_TEAM = XKLGJSP799;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -663,10 +657,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.Services;
+				PRODUCT_BUNDLE_IDENTIFIER = AL.Services;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -677,7 +671,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7DP896J59B;
+				DEVELOPMENT_TEAM = XKLGJSP799;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -685,10 +679,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.Services;
+				PRODUCT_BUNDLE_IDENTIFIER = AL.Services;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

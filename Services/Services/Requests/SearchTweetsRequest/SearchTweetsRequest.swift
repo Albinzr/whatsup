@@ -63,7 +63,6 @@ public class SearchTweetsRequest {
                 "lang": lang.rawValue
             ]
         } else {
-            let request = WebAPIRequest()
             request.URLString = "https://api.twitter.com/1.1/search/tweets.json\(nextUrl!)"
             request.method = .get
         }

@@ -138,7 +138,7 @@ class TweetListViewController: UIViewController,
     
     private func setupFetchResultsControllerManager() {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>.init(entityName: "Tweet")
-        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "strID", ascending: false)]
+        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "strId", ascending: false)]
         
         frcManager = FRCManager.init(request: fetchRequest, context: twitterSearchManager.context)
         frcManager?.delegate = self
