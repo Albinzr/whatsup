@@ -39,16 +39,20 @@ class ImageUtil {
         
         let tagToUseForCheck = imageView?.tag
         
-        ImageService.fetchImage(fromURLString: URLString!, successCallback: { (response) in
-            if response.statusCode == 200 {
-                if let image = response.response as? UIImage {
-                    if imageView?.tag == tagToUseForCheck {
-                        imageView?.image = image
-                    }
+        let imageRequest = GetImageRequest()
+        imageRequest.urlString = URLString!
+        imageRequest.execute { (response) in
+            if response.error != nil {
+                print(response.error!)
+                
+                return
+            }
+            
+            if let image = response.image {
+                if imageView?.tag == tagToUseForCheck {
+                    imageView?.image = image
                 }
             }
-        }) { (error) in
-            print(error)
         }
     }
 }

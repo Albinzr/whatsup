@@ -39,6 +39,13 @@ public class TwitterAuthManagerDefaultImpl: TwitterAuthManager {
         authRequest.basicToken = basicToken
         authRequest.execute { (response) in
             if response.error != nil {
+                if let serviceError = response.error as? ServiceError {
+                    self.delegate?.twitterAuthManager(self,
+                                                        authFailedWithError: serviceError)
+                    
+                    return
+                }
+                
                 self.delegate?.twitterAuthManager(self, authFailedWithError: response.error)
                 
                 return

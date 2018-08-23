@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86A9901B212ED82000784953 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9901A212ED82000784953 /* AuthRequest.swift */; };
-		86A9902D212EDB7300784953 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9902C212EDB7300784953 /* Exception.swift */; };
+		86A9902D212EDB7300784953 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9902C212EDB7300784953 /* ServiceError.swift */; };
 		86A9903E212EDF9F00784953 /* GetImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9903D212EDF9F00784953 /* GetImageRequest.swift */; };
 		86A99040212EE10300784953 /* SearchTweetsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9903F212EE10300784953 /* SearchTweetsRequest.swift */; };
 		86A99043212EE2EE00784953 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99042212EE2EE00784953 /* Tweet.swift */; };
@@ -26,9 +26,6 @@
 		86F326F61EE6CE58003D08D3 /* WebAPIRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326F01EE6CE58003D08D3 /* WebAPIRequestSerializer.swift */; };
 		86F326F71EE6CE58003D08D3 /* WebAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326F11EE6CE58003D08D3 /* WebAPIResponse.swift */; };
 		86F326F81EE6CE58003D08D3 /* WebAPIResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326F21EE6CE58003D08D3 /* WebAPIResponseSerializer.swift */; };
-		86F326FD1EE6CE5E003D08D3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326FA1EE6CE5E003D08D3 /* AuthService.swift */; };
-		86F326FE1EE6CE5E003D08D3 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326FB1EE6CE5E003D08D3 /* ImageService.swift */; };
-		86F326FF1EE6CE5E003D08D3 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326FC1EE6CE5E003D08D3 /* SearchService.swift */; };
 		86F327021EE6CE62003D08D3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327011EE6CE62003D08D3 /* APIClient.swift */; };
 		86F327041EE6CE9B003D08D3 /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327031EE6CE9B003D08D3 /* ServicesTests.swift */; };
 /* End PBXBuildFile section */
@@ -48,7 +45,7 @@
 		4752232620EA01F2000B1AAD /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		4752232720EA01F2000B1AAD /* Stage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		86A9901A212ED82000784953 /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
-		86A9902C212EDB7300784953 /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		86A9902C212EDB7300784953 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		86A9903D212EDF9F00784953 /* GetImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageRequest.swift; sourceTree = "<group>"; };
 		86A9903F212EE10300784953 /* SearchTweetsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTweetsRequest.swift; sourceTree = "<group>"; };
 		86A99042212EE2EE00784953 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
@@ -69,9 +66,6 @@
 		86F326F01EE6CE58003D08D3 /* WebAPIRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIRequestSerializer.swift; sourceTree = "<group>"; };
 		86F326F11EE6CE58003D08D3 /* WebAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIResponse.swift; sourceTree = "<group>"; };
 		86F326F21EE6CE58003D08D3 /* WebAPIResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIResponseSerializer.swift; sourceTree = "<group>"; };
-		86F326FA1EE6CE5E003D08D3 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		86F326FB1EE6CE5E003D08D3 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		86F326FC1EE6CE5E003D08D3 /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		86F327011EE6CE62003D08D3 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		86F327031EE6CE9B003D08D3 /* ServicesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +113,7 @@
 		86A9902B212EDB6200784953 /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				86A9902C212EDB7300784953 /* Exception.swift */,
+				86A9902C212EDB7300784953 /* ServiceError.swift */,
 			);
 			path = Exceptions;
 			sourceTree = "<group>";
@@ -220,7 +214,6 @@
 				86A99019212ED80B00784953 /* Requests */,
 				4752232420EA01DB000B1AAD /* Configuration */,
 				86F327001EE6CE62003D08D3 /* APIClient */,
-				86F326F91EE6CE5E003D08D3 /* Services */,
 				86F326EC1EE6CE58003D08D3 /* WebAPIAdapter */,
 				86F326D51EE6CE01003D08D3 /* Services.h */,
 			);
@@ -247,16 +240,6 @@
 				86F326F21EE6CE58003D08D3 /* WebAPIResponseSerializer.swift */,
 			);
 			path = WebAPIAdapter;
-			sourceTree = "<group>";
-		};
-		86F326F91EE6CE5E003D08D3 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				86F326FA1EE6CE5E003D08D3 /* AuthService.swift */,
-				86F326FB1EE6CE5E003D08D3 /* ImageService.swift */,
-				86F326FC1EE6CE5E003D08D3 /* SearchService.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		86F327001EE6CE62003D08D3 /* APIClient */ = {
@@ -382,15 +365,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A99047212EE35D00784953 /* Link.swift in Sources */,
-				86F326FF1EE6CE5E003D08D3 /* SearchService.swift in Sources */,
 				86A9901B212ED82000784953 /* AuthRequest.swift in Sources */,
 				86A9903E212EDF9F00784953 /* GetImageRequest.swift in Sources */,
 				86A99049212EE5E100784953 /* TweetParser.swift in Sources */,
 				86A99052212EEB7D00784953 /* SearchTweetRequestResponseParser.swift in Sources */,
 				86F326F41EE6CE58003D08D3 /* WebAPIAdapterError.swift in Sources */,
 				86A99045212EE34F00784953 /* User.swift in Sources */,
-				86F326FE1EE6CE5E003D08D3 /* ImageService.swift in Sources */,
-				86A9902D212EDB7300784953 /* Exception.swift in Sources */,
+				86A9902D212EDB7300784953 /* ServiceError.swift in Sources */,
 				86A99043212EE2EE00784953 /* Tweet.swift in Sources */,
 				86F327021EE6CE62003D08D3 /* APIClient.swift in Sources */,
 				86A9904E212EE73E00784953 /* UserParser.swift in Sources */,
@@ -401,7 +382,6 @@
 				86A9904C212EE62000784953 /* Parser.swift in Sources */,
 				86F326F51EE6CE58003D08D3 /* WebAPIRequest.swift in Sources */,
 				86F326F61EE6CE58003D08D3 /* WebAPIRequestSerializer.swift in Sources */,
-				86F326FD1EE6CE5E003D08D3 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		47DB500520EA0C5700204137 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DB500420EA0C5700204137 /* Environment.swift */; };
-		86E8F66B212F22D200F1DB08 /* Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F668212F22A800F1DB08 /* Theme.framework */; };
-		86E8F66C212F22D200F1DB08 /* Theme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F668212F22A800F1DB08 /* Theme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86E8F66D212F22D200F1DB08 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F669212F22A900F1DB08 /* Logic.framework */; };
-		86E8F66E212F22D200F1DB08 /* Logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F669212F22A900F1DB08 /* Logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86E8F66F212F22D200F1DB08 /* PersistenceStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */; };
-		86E8F670212F22D200F1DB08 /* PersistenceStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86E8F671212F22D200F1DB08 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F667212F22A800F1DB08 /* Services.framework */; };
-		86E8F672212F22D200F1DB08 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F667212F22A800F1DB08 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F674212F27D500F1DB08 /* Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F673212F27D500F1DB08 /* Theme.framework */; };
+		86E8F675212F27D500F1DB08 /* Theme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F673212F27D500F1DB08 /* Theme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F677212F27D500F1DB08 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F676212F27D500F1DB08 /* Logic.framework */; };
+		86E8F678212F27D500F1DB08 /* Logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F676212F27D500F1DB08 /* Logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F67A212F27D500F1DB08 /* PersistenceStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F679212F27D500F1DB08 /* PersistenceStore.framework */; };
+		86E8F67B212F27D500F1DB08 /* PersistenceStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F679212F27D500F1DB08 /* PersistenceStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86E8F67D212F27D500F1DB08 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F67C212F27D500F1DB08 /* Services.framework */; };
+		86E8F67E212F27D500F1DB08 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8F67C212F27D500F1DB08 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		86F327911EE6D1A0003D08D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327901EE6D1A0003D08D3 /* AppDelegate.swift */; };
 		86F327931EE6D1B7003D08D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F327921EE6D1B7003D08D3 /* Assets.xcassets */; };
 		86F327981EE6D1E0003D08D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F327941EE6D1E0003D08D3 /* LaunchScreen.storyboard */; };
@@ -48,16 +48,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4752230F20E9FB76000B1AAD /* Embed Frameworks */ = {
+		86E8F67F212F27D600F1DB08 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				86E8F66C212F22D200F1DB08 /* Theme.framework in Embed Frameworks */,
-				86E8F670212F22D200F1DB08 /* PersistenceStore.framework in Embed Frameworks */,
-				86E8F672212F22D200F1DB08 /* Services.framework in Embed Frameworks */,
-				86E8F66E212F22D200F1DB08 /* Logic.framework in Embed Frameworks */,
+				86E8F675212F27D500F1DB08 /* Theme.framework in Embed Frameworks */,
+				86E8F67B212F27D500F1DB08 /* PersistenceStore.framework in Embed Frameworks */,
+				86E8F67E212F27D500F1DB08 /* Services.framework in Embed Frameworks */,
+				86E8F678212F27D500F1DB08 /* Logic.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +73,10 @@
 		86E8F668212F22A800F1DB08 /* Theme.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theme.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/Theme.framework"; sourceTree = "<group>"; };
 		86E8F669212F22A900F1DB08 /* Logic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logic.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/Logic.framework"; sourceTree = "<group>"; };
 		86E8F66A212F22A900F1DB08 /* PersistenceStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceStore.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhatsUp-gdmnrvuyijzytidjmothdcnkukvn/Build/Products/Debug-iphoneos/PersistenceStore.framework"; sourceTree = "<group>"; };
+		86E8F673212F27D500F1DB08 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E8F676212F27D500F1DB08 /* Logic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E8F679212F27D500F1DB08 /* PersistenceStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PersistenceStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E8F67C212F27D500F1DB08 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F326501EE6CD59003D08D3 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F3265F1EE6CD59003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F327901EE6D1A0003D08D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,10 +115,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E8F66B212F22D200F1DB08 /* Theme.framework in Frameworks */,
-				86E8F66F212F22D200F1DB08 /* PersistenceStore.framework in Frameworks */,
-				86E8F671212F22D200F1DB08 /* Services.framework in Frameworks */,
-				86E8F66D212F22D200F1DB08 /* Logic.framework in Frameworks */,
+				86E8F674212F27D500F1DB08 /* Theme.framework in Frameworks */,
+				86E8F67A212F27D500F1DB08 /* PersistenceStore.framework in Frameworks */,
+				86E8F67D212F27D500F1DB08 /* Services.framework in Frameworks */,
+				86E8F677212F27D500F1DB08 /* Logic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +140,10 @@
 		86F326471EE6CD59003D08D3 = {
 			isa = PBXGroup;
 			children = (
+				86E8F67C212F27D500F1DB08 /* Services.framework */,
+				86E8F679212F27D500F1DB08 /* PersistenceStore.framework */,
+				86E8F676212F27D500F1DB08 /* Logic.framework */,
+				86E8F673212F27D500F1DB08 /* Theme.framework */,
 				86F3278F1EE6D141003D08D3 /* Frameworks */,
 				86F326511EE6CD59003D08D3 /* Products */,
 				86F326521EE6CD59003D08D3 /* WhatsUp */,
@@ -288,7 +296,7 @@
 				86F3264C1EE6CD59003D08D3 /* Sources */,
 				86F3264D1EE6CD59003D08D3 /* Frameworks */,
 				86F3264E1EE6CD59003D08D3 /* Resources */,
-				4752230F20E9FB76000B1AAD /* Embed Frameworks */,
+				86E8F67F212F27D600F1DB08 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -480,7 +488,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -614,7 +621,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -635,7 +641,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
-				PRODUCT_BUNDLE_IDENTIFIER = AK.WhatsUp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;

@@ -18,7 +18,7 @@ public class GetImageRequest {
         public var image: UIImage?
         
         public init(from error: Error?) {
-            self.error = error
+            self.error = ServiceError.errorFor(error)
         }
         
         public init(from response: WebAPIResponse?) {
@@ -29,7 +29,7 @@ public class GetImageRequest {
                 
                 self.image = image
             } else {
-                self.error = Exception.errorFor(code: response?.statusCode)
+                self.error = ServiceError.errorFor(httpStatusCode: response?.statusCode)
             }
         }
     }

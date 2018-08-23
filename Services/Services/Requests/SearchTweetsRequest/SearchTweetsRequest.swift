@@ -21,7 +21,7 @@ public class SearchTweetsRequest {
         public var query: String?
         
         public init(from error: Error?) {
-            self.error = error
+            self.error = ServiceError.errorFor(error)
         }
         
         public init(from response: WebAPIResponse?) {
@@ -32,7 +32,7 @@ public class SearchTweetsRequest {
                 
                 SearchTweetRequestResponseParser.update(response: self, from: dict)
             } else {
-                self.error = Exception.errorFor(code: response?.statusCode)
+                self.error = ServiceError.errorFor(httpStatusCode: response?.statusCode)
             }
         }
     }

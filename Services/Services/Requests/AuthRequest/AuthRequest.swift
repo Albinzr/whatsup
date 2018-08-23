@@ -18,7 +18,7 @@ public class AuthRequest {
         public var bearerToken: String?
         
         public init(from error: Error?) {
-            self.error = error
+            self.error = ServiceError.errorFor(error)
         }
         
         public init(from response: WebAPIResponse?) {
@@ -29,7 +29,7 @@ public class AuthRequest {
                 
                 bearerToken = dict["access_token"] as? String
             } else {
-                self.error = Exception.errorFor(code: response?.statusCode)
+                self.error = ServiceError.errorFor(httpStatusCode: response?.statusCode)
             }
         }
     }
