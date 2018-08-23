@@ -256,8 +256,8 @@ class TweetListViewController: UIViewController,
         if let links = tweet.links?.allObjects as? [CDLink] {
             let alertCtrl = UIAlertController.init(title: "Open in Safari", message: nil, preferredStyle: .actionSheet)
             for link in links {
-                let action = UIAlertAction.init(title: link.stringURL, style: .default, handler: { (action) in
-                    UIApplication.shared.openURL(URL(string: link.stringURL!)!)
+                let action = UIAlertAction.init(title: link.urlString, style: .default, handler: { (action) in
+                    UIApplication.shared.openURL(URL(string: link.urlString!)!)
                 })
                 
                 alertCtrl.addAction(action)

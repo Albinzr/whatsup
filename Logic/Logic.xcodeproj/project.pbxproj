@@ -16,6 +16,9 @@
 		869717AA1EE720E9006DB7AC /* TwitterSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A31EE720E9006DB7AC /* TwitterSearchManager.swift */; };
 		869717AB1EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A41EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift */; };
 		869717AC1EE720E9006DB7AC /* AuthUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A61EE720E9006DB7AC /* AuthUtil.swift */; };
+		86A9905B212F13AF00784953 /* TweetMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9905A212F13AF00784953 /* TweetMapper.swift */; };
+		86E8F663212F182700F1DB08 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8F662212F182700F1DB08 /* UserMapper.swift */; };
+		86E8F665212F183B00F1DB08 /* LinkMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8F664212F183B00F1DB08 /* LinkMapper.swift */; };
 		86F3268E1EE6CD8F003D08D3 /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F326841EE6CD8F003D08D3 /* Logic.framework */; };
 		86F326931EE6CD8F003D08D3 /* LogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326921EE6CD8F003D08D3 /* LogicTests.swift */; };
 		86F326951EE6CD8F003D08D3 /* Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F326871EE6CD8F003D08D3 /* Logic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +47,9 @@
 		869717A31EE720E9006DB7AC /* TwitterSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManager.swift; sourceTree = "<group>"; };
 		869717A41EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchManagerDefaultImpl.swift; sourceTree = "<group>"; };
 		869717A61EE720E9006DB7AC /* AuthUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUtil.swift; sourceTree = "<group>"; };
+		86A9905A212F13AF00784953 /* TweetMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetMapper.swift; sourceTree = "<group>"; };
+		86E8F662212F182700F1DB08 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		86E8F664212F183B00F1DB08 /* LinkMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkMapper.swift; sourceTree = "<group>"; };
 		86F326841EE6CD8F003D08D3 /* Logic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F326871EE6CD8F003D08D3 /* Logic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		86F326881EE6CD8F003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +137,16 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		86A99059212F139F00784953 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				86A9905A212F13AF00784953 /* TweetMapper.swift */,
+				86E8F662212F182700F1DB08 /* UserMapper.swift */,
+				86E8F664212F183B00F1DB08 /* LinkMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
 		86F3267A1EE6CD8F003D08D3 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +169,7 @@
 		86F326861EE6CD8F003D08D3 /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				86A99059212F139F00784953 /* Mappers */,
 				4752232020EA00E4000B1AAD /* Configuration */,
 				8697179C1EE720E9006DB7AC /* FRCManager */,
 				8697179E1EE720E9006DB7AC /* Managers */,
@@ -303,6 +320,9 @@
 				869717AB1EE720E9006DB7AC /* TwitterSearchManagerDefaultImpl.swift in Sources */,
 				869717A91EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift in Sources */,
 				869717AC1EE720E9006DB7AC /* AuthUtil.swift in Sources */,
+				86A9905B212F13AF00784953 /* TweetMapper.swift in Sources */,
+				86E8F663212F182700F1DB08 /* UserMapper.swift in Sources */,
+				86E8F665212F183B00F1DB08 /* LinkMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

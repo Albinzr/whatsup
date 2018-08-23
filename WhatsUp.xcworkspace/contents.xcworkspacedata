@@ -11,9 +11,6 @@
       location = "group:Logic/Logic.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Parsers/Parsers.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:PersistenceStore/PersistenceStore.xcodeproj">
    </FileRef>
    <FileRef

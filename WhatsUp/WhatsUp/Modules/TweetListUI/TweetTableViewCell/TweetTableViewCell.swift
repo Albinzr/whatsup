@@ -77,7 +77,7 @@ class TweetTableViewCell: UITableViewCell {
             lText.text = tweet.text
         }
         
-        ImageUtil.setAsyncImage(fromURLString: tweet.user?.profileImageURLString,
+        ImageUtil.setAsyncImage(fromURLString: tweet.user?.profileImageUrlString,
                                 placeholderImage: UIImage.init(named: "profile_image_placeholder_image"),
                                 to: ivProfileImageView,
                                 useTag: indexPath.row,

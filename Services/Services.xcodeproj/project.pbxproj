@@ -10,6 +10,17 @@
 		4752232820EA01F2000B1AAD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232520EA01F2000B1AAD /* Release.xcconfig */; };
 		4752232920EA01F2000B1AAD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232620EA01F2000B1AAD /* Debug.xcconfig */; };
 		4752232A20EA01F2000B1AAD /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232720EA01F2000B1AAD /* Stage.xcconfig */; };
+		86A9901B212ED82000784953 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9901A212ED82000784953 /* AuthRequest.swift */; };
+		86A9902D212EDB7300784953 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9902C212EDB7300784953 /* Exception.swift */; };
+		86A9903E212EDF9F00784953 /* GetImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9903D212EDF9F00784953 /* GetImageRequest.swift */; };
+		86A99040212EE10300784953 /* SearchTweetsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9903F212EE10300784953 /* SearchTweetsRequest.swift */; };
+		86A99043212EE2EE00784953 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99042212EE2EE00784953 /* Tweet.swift */; };
+		86A99045212EE34F00784953 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99044212EE34F00784953 /* User.swift */; };
+		86A99047212EE35D00784953 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99046212EE35D00784953 /* Link.swift */; };
+		86A99049212EE5E100784953 /* TweetParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99048212EE5E100784953 /* TweetParser.swift */; };
+		86A9904C212EE62000784953 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9904B212EE62000784953 /* Parser.swift */; };
+		86A9904E212EE73E00784953 /* UserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9904D212EE73E00784953 /* UserParser.swift */; };
+		86A99052212EEB7D00784953 /* SearchTweetRequestResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A99051212EEB7D00784953 /* SearchTweetRequestResponseParser.swift */; };
 		86F326DC1EE6CE01003D08D3 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F326D21EE6CE01003D08D3 /* Services.framework */; };
 		86F326E31EE6CE01003D08D3 /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F326D51EE6CE01003D08D3 /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86F326F31EE6CE58003D08D3 /* WebAPIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F326ED1EE6CE58003D08D3 /* WebAPIAdapter.swift */; };
@@ -39,6 +50,17 @@
 		4752232520EA01F2000B1AAD /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		4752232620EA01F2000B1AAD /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		4752232720EA01F2000B1AAD /* Stage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
+		86A9901A212ED82000784953 /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		86A9902C212EDB7300784953 /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		86A9903D212EDF9F00784953 /* GetImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageRequest.swift; sourceTree = "<group>"; };
+		86A9903F212EE10300784953 /* SearchTweetsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTweetsRequest.swift; sourceTree = "<group>"; };
+		86A99042212EE2EE00784953 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		86A99044212EE34F00784953 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		86A99046212EE35D00784953 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		86A99048212EE5E100784953 /* TweetParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetParser.swift; sourceTree = "<group>"; };
+		86A9904B212EE62000784953 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		86A9904D212EE73E00784953 /* UserParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParser.swift; sourceTree = "<group>"; };
+		86A99051212EEB7D00784953 /* SearchTweetRequestResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTweetRequestResponseParser.swift; sourceTree = "<group>"; };
 		86F326D21EE6CE01003D08D3 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F326D51EE6CE01003D08D3 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		86F326D61EE6CE01003D08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +109,93 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		86A99019212ED80B00784953 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				86A99058212EF01000784953 /* SearchTweetsRequest */,
+				86A99057212EF00500784953 /* GetImageRequest */,
+				86A99056212EEFFB00784953 /* AuthRequest */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		86A9902B212EDB6200784953 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				86A9902C212EDB7300784953 /* Exception.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		86A99041212EE2E200784953 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86A99055212EEFEF00784953 /* Link */,
+				86A99054212EEFE500784953 /* User */,
+				86A99053212EEFD700784953 /* Tweet */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86A9904A212EE61200784953 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				86A9904B212EE62000784953 /* Parser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		86A99053212EEFD700784953 /* Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				86A99042212EE2EE00784953 /* Tweet.swift */,
+				86A99048212EE5E100784953 /* TweetParser.swift */,
+			);
+			path = Tweet;
+			sourceTree = "<group>";
+		};
+		86A99054212EEFE500784953 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				86A99044212EE34F00784953 /* User.swift */,
+				86A9904D212EE73E00784953 /* UserParser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		86A99055212EEFEF00784953 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				86A99046212EE35D00784953 /* Link.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		86A99056212EEFFB00784953 /* AuthRequest */ = {
+			isa = PBXGroup;
+			children = (
+				86A9901A212ED82000784953 /* AuthRequest.swift */,
+			);
+			path = AuthRequest;
+			sourceTree = "<group>";
+		};
+		86A99057212EF00500784953 /* GetImageRequest */ = {
+			isa = PBXGroup;
+			children = (
+				86A9903D212EDF9F00784953 /* GetImageRequest.swift */,
+			);
+			path = GetImageRequest;
+			sourceTree = "<group>";
+		};
+		86A99058212EF01000784953 /* SearchTweetsRequest */ = {
+			isa = PBXGroup;
+			children = (
+				86A99051212EEB7D00784953 /* SearchTweetRequestResponseParser.swift */,
+				86A9903F212EE10300784953 /* SearchTweetsRequest.swift */,
+			);
+			path = SearchTweetsRequest;
+			sourceTree = "<group>";
+		};
 		86F326C81EE6CE01003D08D3 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +217,10 @@
 		86F326D41EE6CE01003D08D3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				86A9904A212EE61200784953 /* Parser */,
+				86A99041212EE2E200784953 /* Models */,
+				86A9902B212EDB6200784953 /* Exceptions */,
+				86A99019212ED80B00784953 /* Requests */,
 				4752232420EA01DB000B1AAD /* Configuration */,
 				86F327001EE6CE62003D08D3 /* APIClient */,
 				86F326F91EE6CE5E003D08D3 /* Services */,
@@ -274,13 +387,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A99047212EE35D00784953 /* Link.swift in Sources */,
 				86F326FF1EE6CE5E003D08D3 /* SearchService.swift in Sources */,
+				86A9901B212ED82000784953 /* AuthRequest.swift in Sources */,
+				86A9903E212EDF9F00784953 /* GetImageRequest.swift in Sources */,
+				86A99049212EE5E100784953 /* TweetParser.swift in Sources */,
+				86A99052212EEB7D00784953 /* SearchTweetRequestResponseParser.swift in Sources */,
 				86F326F41EE6CE58003D08D3 /* WebAPIAdapterError.swift in Sources */,
+				86A99045212EE34F00784953 /* User.swift in Sources */,
 				86F326FE1EE6CE5E003D08D3 /* ImageService.swift in Sources */,
+				86A9902D212EDB7300784953 /* Exception.swift in Sources */,
+				86A99043212EE2EE00784953 /* Tweet.swift in Sources */,
 				86F327021EE6CE62003D08D3 /* APIClient.swift in Sources */,
+				86A9904E212EE73E00784953 /* UserParser.swift in Sources */,
+				86A99040212EE10300784953 /* SearchTweetsRequest.swift in Sources */,
 				86F326F71EE6CE58003D08D3 /* WebAPIResponse.swift in Sources */,
 				86F326F81EE6CE58003D08D3 /* WebAPIResponseSerializer.swift in Sources */,
 				86F326F31EE6CE58003D08D3 /* WebAPIAdapter.swift in Sources */,
+				86A9904C212EE62000784953 /* Parser.swift in Sources */,
 				86F326F51EE6CE58003D08D3 /* WebAPIRequest.swift in Sources */,
 				86F326F61EE6CE58003D08D3 /* WebAPIRequestSerializer.swift in Sources */,
 				86F326FD1EE6CE5E003D08D3 /* AuthService.swift in Sources */,

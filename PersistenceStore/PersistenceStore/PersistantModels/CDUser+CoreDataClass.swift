@@ -14,12 +14,12 @@ public class CDUser: NSManagedObject {
 
     // MARK: Static methods
     
-    public class func instanceFor(strID: String, context: NSManagedObjectContext) -> CDUser {
+    public class func instanceFor(strId: String, context: NSManagedObjectContext) -> CDUser {
         var instance: CDUser?
-        instance = CDUser.findOne(strID: strID, context: context)
+        instance = CDUser.findOne(strId: strId, context: context)
         if instance == nil {
             instance = CDUser.newInstance(context: context)
-            instance?.strID = strID
+            instance?.strId = strId
         }
         
         return instance!
@@ -29,9 +29,9 @@ public class CDUser: NSManagedObject {
         return NSEntityDescription.insertNewObject(forEntityName: "User", into: context) as! CDUser
     }
     
-    class func findOne(strID: String, context: NSManagedObjectContext) -> CDUser? {
+    class func findOne(strId: String, context: NSManagedObjectContext) -> CDUser? {
         let request = NSFetchRequest<CDUser>(entityName: "User")
-        request.predicate = NSPredicate.init(format: "strID=%@", strID)
+        request.predicate = NSPredicate.init(format: "strId=%@", strId)
         do {
             let results = try context.fetch(request)
             if results.count > 0 {

@@ -57,6 +57,33 @@ class ServicesTests: XCTestCase {
         }
     }
     
+    func testSearchTwitterAuth() {
+        // Define stuff
+        let loginResponseExpectation = XCTestExpectation.init()
+        let waiter = XCTWaiter.init()
+        
+        let searchRequest = SearchTweetsRequest()
+        searchRequest.count = 20
+        searchRequest.lang = .en
+        searchRequest.query = "India"
+        
+        searchRequest.execute { (response) in
+            if response.error != nil {
+                XCTFail("No access token provided")
+                
+                loginResponseExpectation.fulfill()
+            }
+            
+            loginResponseExpectation.fulfill()
+        }
+        
+        // Wait till completion and evaluate result
+        let result = waiter.wait(for: [loginResponseExpectation], timeout: 60)
+        if result == .timedOut {
+            XCTFail("No response from server")
+        }
+    }
+    
     func testSuccessfullTwitterSearch() {
         
         // Define stuff

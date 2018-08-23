@@ -16,7 +16,7 @@ extension CDLink {
         return NSFetchRequest<CDLink>(entityName: "Links")
     }
 
-    @NSManaged public var stringURL: String?
+    @NSManaged public var urlString: String?
     @NSManaged public var startIndex: Int64
     @NSManaged public var length: Int64
     @NSManaged public var tweet: CDTweet?

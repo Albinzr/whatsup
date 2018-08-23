@@ -14,12 +14,12 @@ public class CDTweet: NSManagedObject {
 
     // MARK: Static methods
     
-    public class func instanceFor(strID: String, context: NSManagedObjectContext) -> CDTweet {
+    public class func instanceFor(strId: String, context: NSManagedObjectContext) -> CDTweet {
         var instance: CDTweet?
-        instance = CDTweet.findOne(strID: strID, context: context)
+        instance = CDTweet.findOne(strId: strId, context: context)
         if instance == nil {
             instance = CDTweet.newInstance(context: context)
-            instance?.strID = strID
+            instance?.strId = strId
         }
         
         return instance!
@@ -29,9 +29,9 @@ public class CDTweet: NSManagedObject {
         return NSEntityDescription.insertNewObject(forEntityName: "Tweet", into: context) as! CDTweet
     }
     
-    class func findOne(strID: String, context: NSManagedObjectContext) -> CDTweet? {
+    class func findOne(strId: String, context: NSManagedObjectContext) -> CDTweet? {
         let request = NSFetchRequest<CDTweet>(entityName: "Tweet")
-        request.predicate = NSPredicate.init(format: "strID=%@", strID)
+        request.predicate = NSPredicate.init(format: "strId=%@", strId)
         do {
             let results = try context.fetch(request)
             if results.count > 0 {
@@ -56,16 +56,7 @@ public class CDTweet: NSManagedObject {
     }
     
     public class func remove(tweet: CDTweet, fromContext context: NSManagedObjectContext) {
-//        let userToDelete: User? = nil
-//        if tweet.user?.tweets?.count == 1 {
-//            userToDelete = tweet.user
-//        }
-//        
         context.delete(tweet)
-//        
-//        if userToDelete != nil {
-//            context.delete(user)
-//        }
     }
     
     // MARK: Public methods

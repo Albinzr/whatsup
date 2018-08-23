@@ -20,9 +20,9 @@ extension CDUser {
     @NSManaged public var following: Bool
     @NSManaged public var followersCount: Int64
     @NSManaged public var friendsCount: Int64
-    @NSManaged public var strID: String?
+    @NSManaged public var strId: String?
     @NSManaged public var name: String?
-    @NSManaged public var profileImageURLString: String?
+    @NSManaged public var profileImageUrlString: String?
     @NSManaged public var screenName: String?
     @NSManaged public var tweetsCount: Int64
     @NSManaged public var verified: Bool

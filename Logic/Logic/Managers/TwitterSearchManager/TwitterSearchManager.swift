@@ -30,5 +30,4 @@ public protocol TwitterSearchManager: class {
     func fetchTweetsForSearchString(_ string: String)
     func fetchNextTweetsSet()
     func hasNext() -> Bool
-    
 }

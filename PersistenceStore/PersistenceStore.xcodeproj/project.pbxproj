@@ -17,7 +17,6 @@
 		86F327111EE6CF59003D08D3 /* CDTweet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327091EE6CF59003D08D3 /* CDTweet+CoreDataProperties.swift */; };
 		86F327121EE6CF59003D08D3 /* CDUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3270A1EE6CF59003D08D3 /* CDUser+CoreDataClass.swift */; };
 		86F327131EE6CF59003D08D3 /* CDUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3270B1EE6CF59003D08D3 /* CDUser+CoreDataProperties.swift */; };
-		86F327141EE6CF59003D08D3 /* TRTweetSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3270D1EE6CF59003D08D3 /* TRTweetSearchResponse.swift */; };
 		86F327191EE6CF5E003D08D3 /* CDStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327161EE6CF5E003D08D3 /* CDStack.swift */; };
 		86F3271A1EE6CF5E003D08D3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F327171EE6CF5E003D08D3 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		86F327091EE6CF59003D08D3 /* CDTweet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDTweet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		86F3270A1EE6CF59003D08D3 /* CDUser+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataClass.swift"; sourceTree = "<group>"; };
 		86F3270B1EE6CF59003D08D3 /* CDUser+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		86F3270D1EE6CF59003D08D3 /* TRTweetSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTweetSearchResponse.swift; sourceTree = "<group>"; };
 		86F327161EE6CF5E003D08D3 /* CDStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDStack.swift; sourceTree = "<group>"; };
 		86F327181EE6CF5E003D08D3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +82,6 @@
 				4752232320EA0170000B1AAD /* Configuration */,
 				86F327151EE6CF5E003D08D3 /* CoreDataStack */,
 				86F327051EE6CF59003D08D3 /* PersistantModels */,
-				86F3270C1EE6CF59003D08D3 /* TransientModels */,
 				86F326C01EE6CDE1003D08D3 /* PersistenceStore.h */,
 			);
 			path = PersistenceStore;
@@ -101,14 +98,6 @@
 				86F3270B1EE6CF59003D08D3 /* CDUser+CoreDataProperties.swift */,
 			);
 			path = PersistantModels;
-			sourceTree = "<group>";
-		};
-		86F3270C1EE6CF59003D08D3 /* TransientModels */ = {
-			isa = PBXGroup;
-			children = (
-				86F3270D1EE6CF59003D08D3 /* TRTweetSearchResponse.swift */,
-			);
-			path = TransientModels;
 			sourceTree = "<group>";
 		};
 		86F327151EE6CF5E003D08D3 /* CoreDataStack */ = {
@@ -205,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F327111EE6CF59003D08D3 /* CDTweet+CoreDataProperties.swift in Sources */,
-				86F327141EE6CF59003D08D3 /* TRTweetSearchResponse.swift in Sources */,
 				86F3270F1EE6CF59003D08D3 /* CDLink+CoreDataProperties.swift in Sources */,
 				86F327121EE6CF59003D08D3 /* CDUser+CoreDataClass.swift in Sources */,
 				86F327131EE6CF59003D08D3 /* CDUser+CoreDataProperties.swift in Sources */,

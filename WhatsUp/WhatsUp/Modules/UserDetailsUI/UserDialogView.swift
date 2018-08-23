@@ -77,7 +77,7 @@ class UserDialogView: UIView, UserDialogUI {
     }
     
     private func setUserDetails() {
-        ImageUtil.setAsyncImage(fromURLString: user?.profileImageURLString,
+        ImageUtil.setAsyncImage(fromURLString: user?.profileImageUrlString,
                                 placeholderImage: UIImage.init(named: "profile_image_placeholder_image"),
                                 to: ivProfileImageView,
                                 useTag: 0,

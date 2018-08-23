@@ -68,7 +68,7 @@ class UserParser: Parser {
         }
         
         do {
-            user.profileImageURLString = try parse(key: "profile_image_url_https", from: json)
+            user.profileImageUrlString = try parse(key: "profile_image_url_https", from: json)
         } catch {
             printError(error)
         }

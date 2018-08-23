@@ -15,7 +15,7 @@ public class User: Equatable {
     public var friendsCount: Int?
     public var strId: String?
     public var name: String?
-    public var profileImageURLString: String?
+    public var profileImageUrlString: String?
     public var screenName: String?
     public var tweetsCount: Int?
     public var verified: Bool?

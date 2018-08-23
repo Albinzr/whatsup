@@ -9,7 +9,6 @@
 import Foundation
 import Services
 
-
 public class TwitterAuthManagerDefaultImpl: TwitterAuthManager {
     public weak var delegate: TwitterAuthManagerDelegate?
     
@@ -36,23 +35,26 @@ public class TwitterAuthManagerDefaultImpl: TwitterAuthManager {
         
         let basicToken = "Basic \(encodedToken!)"
         
-        AuthService.authenticate(basicToken: basicToken, successCallback: { (response) in
-            if response.statusCode == 200 {
-                let responseJSON = response.response as! [String: String]
-                if let bearerToken = responseJSON["access_token"] {
-                    AuthUtil.saveAccessToken(token: bearerToken)
-                    APIClient.shared.setDefaultHeaders(headers: ["Authorization": "Bearer \(bearerToken)"])
-                    
-                    self.delegate?.authSuccessfull(manager: self)
-                } else {
-                    self.delegate?.twitterAuthManager(self, authFailedWithError: TwitterAuthManagerError.nilAccessToken)
-                }
-            } else  {
-                self.delegate?.twitterAuthManager(self, authFailedWithError: TwitterAuthManagerError.statusNotOk)
+        let authRequest = AuthRequest.init()
+        authRequest.basicToken = basicToken
+        authRequest.execute { (response) in
+            if response.error != nil {
+                self.delegate?.twitterAuthManager(self, authFailedWithError: response.error)
+                
+                return
             }
-        }, errorCallback: { (error) in
-            self.delegate?.twitterAuthManager(self, authFailedWithError: error)
-        })
+            
+            if response.bearerToken == nil {
+                self.delegate?.twitterAuthManager(self, authFailedWithError: TwitterAuthManagerError.nilAccessToken)
+                
+                return
+            }
+            
+            AuthUtil.saveAccessToken(token: response.bearerToken!)
+            APIClient.shared.setDefaultHeaders(headers: ["Authorization": "Bearer \(response.bearerToken!)"])
+            
+            self.delegate?.authSuccessfull(manager: self)
+        }
     }
     
     private func urlEncode(string: String) -> String? {

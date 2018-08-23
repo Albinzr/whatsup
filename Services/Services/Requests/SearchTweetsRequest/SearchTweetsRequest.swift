@@ -62,8 +62,6 @@ public class SearchTweetsRequest {
                 "count": String(count),
                 "lang": lang.rawValue
             ]
-            
-            request.additionalHeaders = ["Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAAJGL0wAAAAAAKoRD36HI%2FAv%2Bmf6COHohVgA9tOA%3Dz9ynnqXlMhush7ikUUxMA37ix9AoU5NtQKCylAQQWjG9XtpTDn"]
         } else {
             let request = WebAPIRequest()
             request.URLString = "https://api.twitter.com/1.1/search/tweets.json\(nextUrl!)"

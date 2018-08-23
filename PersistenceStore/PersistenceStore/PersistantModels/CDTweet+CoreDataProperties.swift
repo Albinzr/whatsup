@@ -21,7 +21,7 @@ extension CDTweet {
     @NSManaged public var likesCount: Int64
     @NSManaged public var retweetCount: Int64
     @NSManaged public var source: String?
-    @NSManaged public var strID: String?
+    @NSManaged public var strId: String?
     @NSManaged public var text: String?
     @NSManaged public var truncated: Bool
     @NSManaged public var user: CDUser?
