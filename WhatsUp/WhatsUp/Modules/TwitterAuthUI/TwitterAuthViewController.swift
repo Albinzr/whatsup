@@ -52,8 +52,13 @@ class TwitterAuthViewController: UIViewController, TwitterAuthUI {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        startLogoAnimation()
         setupAppearance()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        startLogoAnimation()
     }
     
     // MARK: Public Methods
