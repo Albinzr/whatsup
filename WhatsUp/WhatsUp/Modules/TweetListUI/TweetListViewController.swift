@@ -90,13 +90,16 @@ class TweetListViewController: UIViewController,
     func fetchTweetsForSearchString(_ searchString: String) {
         showLoader(message: "Lets see what the world thinks about \(searchString)")
         fetchingTweets = true
+        
+        CDTweet.removeAll(fromContext: CDStack.getSharedMOC())
+        CDLink.removeAll(fromContext: CDStack.getSharedMOC())
         twitterSearchManager.fetchTweetsForSearchString(searchString)
     }
     
     func showDetailsForUser(_ user: CDUser) {
         let params = UserDialogUIInitParams(user: user)
         let ui = initUserDialogUI(initParams: params)
-        presentUserDialogUI(ui!)
+        presentUserDialogUI(ui)
     }
     
     func gotoAuthenticationUI() {

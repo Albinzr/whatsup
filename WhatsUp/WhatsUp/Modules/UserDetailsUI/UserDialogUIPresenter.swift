@@ -14,12 +14,12 @@ struct UserDialogUIInitParams {
 }
 
 protocol UserDialogUIPresenter {
-    func initUserDialogUI(initParams: UserDialogUIInitParams) -> UserDialogUI!
+    func initUserDialogUI(initParams: UserDialogUIInitParams) -> UserDialogUI
     func presentUserDialogUI(_ ui: UserDialogUI)
 }
 
 extension UserDialogUIPresenter where Self: UIViewController {
-    func initUserDialogUI(initParams: UserDialogUIInitParams) -> UserDialogUI! {
+    func initUserDialogUI(initParams: UserDialogUIInitParams) -> UserDialogUI {
         var view = UserDialogView.newInstance() as UserDialogUI
         view.user = initParams.user
         

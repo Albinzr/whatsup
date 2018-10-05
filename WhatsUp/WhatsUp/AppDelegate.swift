@@ -12,7 +12,7 @@ import Services
 import Theme
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, TweetListUIPresenter {
     
     var window: UIWindow?
     
@@ -30,14 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func goInside() {
-        let tweetListViewController:TweetListViewController = TweetListViewController.newInstance() as! TweetListViewController
-        tweetListViewController.twitterSearchManager = TwitterSearchManagerDefaultImpl()
-        tweetListViewController.twitterSearchManager.delegate = tweetListViewController
-        
-        
-        let navigationCtrl = UINavigationController.init(rootViewController: tweetListViewController)
-        
-        window?.rootViewController = navigationCtrl
+        let tweetListUI = initTweetListUI(initParams: TweetListUIInitParams())
+        presentTweetListUI(tweetListUI)
     }
     
     func goToAuthenticationUI() {

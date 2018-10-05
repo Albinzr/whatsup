@@ -57,8 +57,8 @@ public class SearchTweetsRequest {
             request.URLString = "https://api.twitter.com/1.1/search/tweets.json"
             request.method = .get
             request.queryParam = [
-                "q": "\(query) -filter:retweets -filter:truncated",
-                "result_type": "recent",
+                "q": "\(String(describing: query!)) -filter:retweets -filter:truncated",
+                "result_type": "mixed",
                 "count": String(count),
                 "lang": lang.rawValue
             ]

@@ -11,6 +11,13 @@ import Foundation
 public class TweetParser: Parser {
     public class func getTweet(from json: JSON) -> Tweet? {
         do {
+            guard try nil == parse(key: "in_reply_to_status_id", from: json),
+                try nil == parse(key: "in_reply_to_user_id", from: json),
+                try nil == parse(key: "in_reply_to_screen_name", from: json) else {
+                
+                    return nil
+            }
+            
             if let strId: String = try parse(key: "id_str", from: json) {
                 let tweet = Tweet.init(strId: strId)
                 update(tweet: tweet, from: json)

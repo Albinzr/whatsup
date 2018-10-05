@@ -30,7 +30,7 @@ public class TwitterSearchManagerDefaultImpl: TwitterSearchManager {
     
     public func fetchTweetsForSearchString(_ string: String) {
         let searchTweetsRequest = SearchTweetsRequest()
-        searchTweetsRequest.count = 20
+        searchTweetsRequest.count = 100
         searchTweetsRequest.lang = .en
         searchTweetsRequest.query = string
         searchTweetsRequest.execute { (response) in
@@ -48,7 +48,7 @@ public class TwitterSearchManagerDefaultImpl: TwitterSearchManager {
                 return
             }
             
-            if response.tweets != nil {
+            if response.tweets == nil {
                 self.delegate?.twitterSearchManager(self,
                                                     searchFailedWithError: TwitterSearchManagerError.nilResponse)
                 
@@ -94,7 +94,7 @@ public class TwitterSearchManagerDefaultImpl: TwitterSearchManager {
                 return
             }
             
-            if response.tweets != nil {
+            if response.tweets == nil {
                 self.delegate?.twitterSearchManager(self,
                                                     searchFailedWithError: TwitterSearchManagerError.nilResponse)
                 

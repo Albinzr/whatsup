@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4752233A20EA03FB000B1AAD /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752233720EA03FA000B1AAD /* Stage.xcconfig */; };
-		4752233B20EA03FB000B1AAD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752233820EA03FB000B1AAD /* Debug.xcconfig */; };
-		4752233C20EA03FB000B1AAD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752233920EA03FB000B1AAD /* Release.xcconfig */; };
 		869717A71EE720E9006DB7AC /* FRCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697179D1EE720E9006DB7AC /* FRCManager.swift */; };
 		869717A81EE720E9006DB7AC /* TwitterAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A01EE720E9006DB7AC /* TwitterAuthManager.swift */; };
 		869717A91EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717A11EE720E9006DB7AC /* TwitterAuthManagerDefaultImpl.swift */; };
@@ -253,7 +250,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ankur Kesharwani";
 				TargetAttributes = {
 					86F326831EE6CD8F003D08D3 = {
@@ -292,9 +289,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4752233B20EA03FB000B1AAD /* Debug.xcconfig in Resources */,
-				4752233A20EA03FB000B1AAD /* Stage.xcconfig in Resources */,
-				4752233C20EA03FB000B1AAD /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

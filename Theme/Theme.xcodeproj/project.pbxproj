@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		474697DB20EA1C280056372E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697D820EA1C270056372E /* Debug.xcconfig */; };
-		474697DC20EA1C280056372E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697D920EA1C270056372E /* Release.xcconfig */; };
-		474697DD20EA1C280056372E /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 474697DA20EA1C270056372E /* Stage.xcconfig */; };
 		869717841EE7206D006DB7AC /* BorderedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717651EE7206D006DB7AC /* BorderedPrimaryButton.swift */; };
 		869717851EE7206D006DB7AC /* FilledPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717661EE7206D006DB7AC /* FilledPrimaryButton.swift */; };
 		869717861EE7206D006DB7AC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869717671EE7206D006DB7AC /* PrimaryButton.swift */; };
@@ -254,7 +251,7 @@
 		86F326661EE6CD6D003D08D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ankur Kesharwani";
 				TargetAttributes = {
 					86F3266E1EE6CD6D003D08D3 = {
@@ -287,9 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474697DD20EA1C280056372E /* Stage.xcconfig in Resources */,
-				474697DC20EA1C280056372E /* Release.xcconfig in Resources */,
-				474697DB20EA1C280056372E /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

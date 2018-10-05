@@ -87,7 +87,7 @@ public class FRCManager: NSObject, NSFetchedResultsControllerDelegate {
     }
     
     public func objectAtIndexPath(indexPath: IndexPath) -> NSManagedObject! {
-        return fetchResultsController.object(at: indexPath) as! NSManagedObject
+        return fetchResultsController.object(at: indexPath) as? NSManagedObject
     }
     
     // MARK: FRC delegate methods

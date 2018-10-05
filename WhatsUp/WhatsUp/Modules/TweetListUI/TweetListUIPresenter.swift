@@ -10,26 +10,39 @@ import UIKit
 import Logic
 
 struct TweetListUIInitParams {
-    let twitterSearcghManager: TwitterSearchManager!
+    var twitterSearcghManager: TwitterSearchManager?
 }
 
 protocol TweetListUIPresenter {
-    func initTweetListUI(initParams: TweetListUIInitParams) -> TweetListUI!
+    func initTweetListUI(initParams: TweetListUIInitParams) -> TweetListUI
     func presentTweetListUI(_ ui: TweetListUI)
 }
 
-extension TweetListUIPresenter where Self: UIViewController {
-    func initTweetListUI(initParams: TweetListUIInitParams) -> TweetListUI! {
+extension TweetListUIPresenter {
+    func initTweetListUI(initParams: TweetListUIInitParams) -> TweetListUI {
         let viewController = TweetListViewController.newInstance() as TweetListUI
-        viewController.twitterSearchManager = initParams.twitterSearcghManager
+        viewController.twitterSearchManager = initParams.twitterSearcghManager ?? TwitterSearchManagerDefaultImpl()
         viewController.twitterSearchManager.delegate = viewController
         
         return viewController
     }
+}
 
+extension TweetListUIPresenter where Self: UIViewController {
     func presentTweetListUI(_ ui: TweetListUI) {
         let viewController = ui as! TweetListViewController
 
         navigationController?.show(viewController, sender: nil)
     }
 }
+
+extension TweetListUIPresenter where Self: AppDelegate {
+    func presentTweetListUI(_ ui: TweetListUI) {
+        let viewController = ui as! TweetListViewController
+        
+        let navigationCtrl = UINavigationController.init(rootViewController: viewController)
+        
+        window?.rootViewController = navigationCtrl
+    }
+}
+

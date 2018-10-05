@@ -10,25 +10,37 @@ import UIKit
 import Logic
 
 struct TwitterAuthUIInitParams {
+    var twitterAuthManager: TwitterAuthManager?
 }
 
 protocol TwitterAuthUIPresenter {
-    func initTwitterAuthUI(initParams: TwitterAuthUIInitParams) -> TwitterAuthUI!
+    func initTwitterAuthUI(initParams: TwitterAuthUIInitParams) -> TwitterAuthUI
     func presentTwitterAuthUI(_ ui: TwitterAuthUI)
 }
 
-extension TwitterAuthUIPresenter where Self: UIViewController {
-    func initTwitterAuthUI(initParams: TwitterAuthUIInitParams) -> TwitterAuthUI! {
+extension TwitterAuthUIPresenter {
+    func initTwitterAuthUI(initParams: TwitterAuthUIInitParams) -> TwitterAuthUI {
         let viewController = TwitterAuthViewController.newInstance() as TwitterAuthUI
-        viewController.manager = TwitterAuthManagerDefaultImpl()
+        viewController.manager = initParams.twitterAuthManager ?? TwitterAuthManagerDefaultImpl()
         viewController.manager.delegate = viewController
-
+        
         return viewController
     }
+}
 
+extension TwitterAuthUIPresenter where Self: UIViewController {
     func presentTwitterAuthUI(_ ui: TwitterAuthUI) {
         let viewController = ui as! TwitterAuthViewController
 
         navigationController?.show(viewController, sender: nil)
     }
 }
+
+extension TwitterAuthUIPresenter where Self: AppDelegate {
+    func presentTwitterAuthUI(_ ui: TwitterAuthUI) {
+        let viewController = ui as! TwitterAuthViewController
+        
+        window?.rootViewController = viewController
+    }
+}
+

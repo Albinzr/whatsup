@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4752232E20EA024A000B1AAD /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232B20EA024A000B1AAD /* Release.xcconfig */; };
-		4752232F20EA024A000B1AAD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232C20EA024A000B1AAD /* Debug.xcconfig */; };
-		4752233020EA024A000B1AAD /* Stage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4752232D20EA024A000B1AAD /* Stage.xcconfig */; };
 		86F326C21EE6CDE1003D08D3 /* PersistenceStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F326C01EE6CDE1003D08D3 /* PersistenceStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86F3270E1EE6CF59003D08D3 /* CDLink+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327061EE6CF59003D08D3 /* CDLink+CoreDataClass.swift */; };
 		86F3270F1EE6CF59003D08D3 /* CDLink+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F327071EE6CF59003D08D3 /* CDLink+CoreDataProperties.swift */; };
@@ -147,7 +144,7 @@
 		86F326B41EE6CDE1003D08D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ankur Kesharwani";
 				TargetAttributes = {
 					86F326BC1EE6CDE1003D08D3 = {
@@ -180,9 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4752233020EA024A000B1AAD /* Stage.xcconfig in Resources */,
-				4752232F20EA024A000B1AAD /* Debug.xcconfig in Resources */,
-				4752232E20EA024A000B1AAD /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
